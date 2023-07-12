@@ -2545,3 +2545,9 @@ msgstr "aucune date de fin"
 # Back to top button
 msgid "Top"
 msgstr "Haut"
+
+
+
+# added by me
+msgid "Organization"
+msgstr "Organisation"
