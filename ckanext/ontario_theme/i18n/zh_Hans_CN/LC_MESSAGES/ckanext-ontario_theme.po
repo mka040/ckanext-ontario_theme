@@ -22,52 +22,52 @@ msgstr ""
 
 #: ckanext/ontario_theme/create_view.py:34
 msgid "Integrity Error"
-msgstr ""
+msgstr "完整性错误"
 
 #: ckanext/ontario_theme/create_view.py:100
 msgid "Unauthorized to read package"
-msgstr ""
+msgstr "未授权读取包"
 
 #: ckanext/ontario_theme/create_view.py:102
 msgid "Dataset not found"
-msgstr ""
+msgstr "未找到数据集"
 
 #: ckanext/ontario_theme/create_view.py:110
 msgid "Unable to add package to search index."
-msgstr ""
+msgstr "无法将包添加到搜索索引。"
 
 #: ckanext/ontario_theme/plugin.py:173
 msgid "Supporting file"
-msgstr ""
+msgstr "支持文件"
 
 #: ckanext/ontario_theme/plugin.py:762
 msgid "Fiscal: "
-msgstr ""
+msgstr "财政："
 
 #: ckanext/ontario_theme/plugin.py:1028
 msgid "Need to be system administrator to administer"
-msgstr ""
+msgstr "需要系统管理员才能管理"
 
 #: ckanext/ontario_theme/plugin.py:1051
 msgid "Access Level"
-msgstr ""
+msgstr "访问级别"
 
 #: ckanext/ontario_theme/plugin.py:1052
 msgid "Asset Type"
-msgstr ""
+msgstr "资产类型"
 
 #: ckanext/ontario_theme/plugin.py:1053
 msgid "Update Frequency"
-msgstr ""
+msgstr "更新频率"
 
 #: ckanext/ontario_theme/plugin.py:1054 ckanext/ontario_theme/plugin.py:1055
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:21
 msgid "Topics"
-msgstr ""
+msgstr "主题"
 
 #: ckanext/ontario_theme/plugin.py:1056
 msgid "Licences"
-msgstr ""
+msgstr "许可证"
 
 #: ckanext/ontario_theme/plugin.py:1057
 #: ckanext/ontario_theme/templates/internal/header.html:139
@@ -84,58 +84,49 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/read_base.html:52
 #: ckanext/ontario_theme/templates/internal/package/base.html:10
 msgid "Ministries"
-msgstr ""
+msgstr "各部委"
 
 #: ckanext/ontario_theme/plugin.py:1059
 msgid "Jurisdiction"
-msgstr ""
+msgstr "管辖权"
 
 #: ckanext/ontario_theme/plugin.py:1060
 msgid "Category"
-msgstr ""
+msgstr "类别"
 
 #: ckanext/ontario_theme/validators.py:30
 #, python-format
 msgid "Tag \"%s\" may not contain commas"
-msgstr ""
+msgstr "标签“%s”不能包含逗号"
 
 #: ckanext/ontario_theme/validators.py:33
 #, python-format
 msgid "Tag \"%s\" may not contain consecutive spaces"
-msgstr ""
+msgstr "标签“%s”不能包含连续空格"
 
 #: ckanext/ontario_theme/validators.py:39
 #, python-format
 msgid "Tag \"%s\" must be alphanumeric characters or symbols: ’'-_."
-msgstr ""
+msgstr "标签“%s”必须是字母数字字符或符号：’’-_。"
 
 #: ckanext/ontario_theme/validators.py:166
 msgid "This is a public catalogue field and can't be changed."
-msgstr ""
+msgstr "这是公共目录字段，无法更改。"
 
 #: ckanext/ontario_theme/templates/external/footer.html:17
 msgid "Contact Us"
-msgstr ""
+msgstr "联系我们"
 
 #: ckanext/ontario_theme/templates/external/footer.html:23
 msgid "https://www.ontario.ca/feedback/contact-us?id=532365&nid=138269"
-msgstr ""
+msgstr "https://www.ontario.ca/feedback/contact-us?id=532365"
 
-#: ckanext/ontario_theme/templates/external/header.html:12
-msgid "Data Catalogue"
-msgstr ""
 
-#: ckanext/ontario_theme/templates/external/header.html:27
-msgid "Tell us what you think about our data and how you’re using it."
-msgstr ""
 
 #: ckanext/ontario_theme/templates/external/header.html:30
 msgid "https://www.ontario.ca/form/survey-open-data-catalogue"
 msgstr ""
 
-#: ckanext/ontario_theme/templates/external/header.html:33
-msgid "Take our survey"
-msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/help.html:4
 #: ckanext/ontario_theme/templates/external/home/help.html:8
@@ -375,7 +366,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/home/help.html:243
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:354
 msgid "Figure 6: The screen where you can set the parameters for your graph."
-msgstr ""
+msgstr "图 6：您可以在其中设置图表参数的屏幕。"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:249
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:356
@@ -402,7 +393,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/help.html:265
 msgid "Q. How does the <strong>Map</strong> option work?"
-msgstr ""
+msgstr "问。 "
 
 #: ckanext/ontario_theme/templates/external/home/help.html:271
 msgid ""
@@ -414,16 +405,16 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/home/help.html:278
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:373
 msgid "A screenshot of the map visualization."
-msgstr ""
+msgstr "地图可视化的屏幕截图。"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:280
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:374
 msgid "Figure 8: Bridge conditions data, mapped in the data catalogue."
-msgstr ""
+msgstr "图 8：桥梁状况数据，映射到数据目录中。"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:288
 msgid "Q. What if I don’t see a <strong>Preview</strong> button?"
-msgstr ""
+msgstr "问。"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:294
 msgid ""
@@ -452,11 +443,11 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/home/help.html:309
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:390
 msgid "Figure 9: A description of a dataset, including its web address."
-msgstr ""
+msgstr "图 9：数据集的描述，包括其网址。"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:317
 msgid "Q. What if a dataset isn’t available in the format I need?"
-msgstr ""
+msgstr "问"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:323
 msgid ""
@@ -492,7 +483,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/help.html:363
 msgid "Q. Why isn't the data for a dataset available?"
-msgstr ""
+msgstr "问。"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:369
 msgid ""
@@ -524,62 +515,62 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/help.html:404
 msgid "To receive RSS updates:"
-msgstr ""
+msgstr "要接收 RSS 更新："
 
 #: ckanext/ontario_theme/templates/external/home/help.html:410
 msgid "Install an RSS reader on your device"
-msgstr ""
+msgstr "在您的设备上安装 RSS 阅读器"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:415
 msgid "Choose the updates you want to receive"
-msgstr ""
+msgstr "选择您想要接收的更新"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:421
 msgid "Available updates:"
-msgstr ""
+msgstr "可用更新："
 
 #: ckanext/ontario_theme/templates/external/home/help.html:427
 msgid "Any dataset is updated or added to the catalogue"
-msgstr ""
+msgstr "任何数据集都会更新或添加到目录中"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:434
 msgid "A specific dataset is updated"
-msgstr ""
+msgstr "特定数据集已更新"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:440
 msgid "name-of-specific-dataset"
-msgstr ""
+msgstr "特定数据集名称"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:446
 #: ckanext/ontario_theme/templates/external/home/help.html:464
 #: ckanext/ontario_theme/templates/external/home/help.html:482
 #: ckanext/ontario_theme/templates/external/home/help.html:500
 msgid "Example"
-msgstr ""
+msgstr "例子"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:452
 msgid "A dataset with a specific tag is updated or added"
-msgstr ""
+msgstr "更新或添加具有特定标签的数据集"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:458
 msgid "name-of-tag"
-msgstr ""
+msgstr "标签名称"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:470
 msgid "A dataset based on your custom search term is updated or added"
-msgstr ""
+msgstr "更新或添加基于您的自定义搜索词的数据集"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:476
 msgid "custom search term"
-msgstr ""
+msgstr "自定义搜索词"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:488
 msgid "A specific ministry updates or adds a dataset"
-msgstr ""
+msgstr "特定部门更新或添加数据集"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:494
 msgid "name-of-specific-ministry"
-msgstr ""
+msgstr "特定部门名称"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/about_text.html:2
 #, python-format
@@ -1025,23 +1016,16 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:18
 msgid "Help us improve the Data Catalogue"
-msgstr ""
+msgstr "帮助我们改进数据目录"
 
-#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:23
-#, python-format
-msgid ""
-"Take a <a href=\"https://www.ontario.ca/form/survey-open-data-"
-"catalogue?%(params)s\">2-minute survey</a> and tell us what you think "
-"about this page."
-msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:8
 msgid "Catalogue"
-msgstr ""
+msgstr "目录"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
 msgid "Find public data and explore "
-msgstr ""
+msgstr "查找公开数据并探索"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
 msgid ""
@@ -1051,7 +1035,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:18
 msgid "Search Data"
-msgstr ""
+msgstr "搜索数据"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:19
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:20
@@ -1061,7 +1045,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/index.html:40
 #: ckanext/ontario_theme/templates/internal/package/search.html:45
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:27
 #, python-format
@@ -1072,7 +1056,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:4
 msgid "Resources and information"
-msgstr ""
+msgstr "资源和信息"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:13
 msgid "https://www.ontario.ca/page/sharing-government-data"
@@ -1080,39 +1064,39 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:14
 msgid "What is Open Data?"
-msgstr ""
+msgstr "什么是开放数据？"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:20
 msgid "Learn about Open Data and the Ontario Data Catalogue."
-msgstr ""
+msgstr "了解开放数据和安大略省数据目录。"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:28
 msgid "Data licences and use"
-msgstr ""
+msgstr "数据许可和使用"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:34
 msgid "Learn about the conditions and terms of use for using data."
-msgstr ""
+msgstr "了解使用数据的条件和使用条款。"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:42
 msgid "Developers"
-msgstr ""
+msgstr "开发商"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:48
 msgid "Guidance for using our data in a software application."
-msgstr ""
+msgstr "在软件应用程序中使用我们的数据的指南。"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:56
 msgid "Training materials"
-msgstr ""
+msgstr "培训材料"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:62
 msgid "Learn to work with government data."
-msgstr ""
+msgstr "学习使用政府数据。"
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:8
 msgid "Data Available"
-msgstr ""
+msgstr "可用数据"
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:10
 #, python-format
@@ -1127,7 +1111,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:32
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:176
 msgid "Data Not Available"
-msgstr ""
+msgstr "数据不可用"
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:19
 msgid ""
@@ -1140,7 +1124,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:27
 msgid "Why?"
-msgstr ""
+msgstr "为什么？"
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:34
 msgid ""
@@ -1152,27 +1136,27 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/scheming/package/read.html:23
 msgid "Ontario's Open Data Team"
-msgstr ""
+msgstr "安大略省的开放数据团队"
 
 #: ckanext/ontario_theme/templates/external/scheming/package/read.html:29
 msgid "Ministry contact:"
-msgstr ""
+msgstr "部门联系方式："
 
 #: ckanext/ontario_theme/templates/external/scheming/package/snippets/additional_info.html:39
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:58
 #: ckanext/ontario_theme/templates/internal/scheming/package/snippets/additional_info.html:34
 msgid "State"
-msgstr ""
+msgstr "状态"
 
 #: ckanext/ontario_theme/templates/external/scheming/package/snippets/language_selector.html:5
 #: ckanext/ontario_theme/templates/internal/snippets/language_selector.html:5
 msgid "Language"
-msgstr ""
+msgstr "语言"
 
 #: ckanext/ontario_theme/templates/external/scheming/package/snippets/language_selector.html:16
 #: ckanext/ontario_theme/templates/internal/snippets/language_selector.html:16
 msgid "Go"
-msgstr ""
+msgstr "走吧"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:10
 msgid "https://www.ontario.ca/page/accessibility"
@@ -1180,7 +1164,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/footer.html:11
 msgid "Accessibility"
-msgstr ""
+msgstr "辅助功能"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:17
 msgid "https://www.ontario.ca/page/privacy-statement"
@@ -1188,7 +1172,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/footer.html:18
 msgid "Privacy"
-msgstr ""
+msgstr "隐私"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:24
 msgid "https://www.ontario.ca/page/terms-use"
@@ -1196,7 +1180,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/footer.html:25
 msgid "Terms of use"
-msgstr ""
+msgstr "使用条款"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:33
 msgid "https://www.ontario.ca/page/copyright-information"
@@ -1433,11 +1417,11 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/ajax_snippets/api_info.html:101
 msgid "A simple ajax (JSONP) request to the data API using jQuery."
-msgstr ""
+msgstr "使用 jQuery 对数据 API 进行简单的 ajax (JSONP) 请求。"
 
 #: ckanext/ontario_theme/templates/internal/ajax_snippets/api_info.html:125
 msgid "Example: Python"
-msgstr ""
+msgstr "示例：Python"
 
 #: ckanext/ontario_theme/templates/internal/group/edit.html:5
 #: ckanext/ontario_theme/templates/internal/group/edit_base.html:4
@@ -1453,7 +1437,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:106
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:25
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: ckanext/ontario_theme/templates/internal/group/edit_base.html:4
 #: ckanext/ontario_theme/templates/internal/group/index.html:16
@@ -1462,24 +1446,24 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:5
 #: ckanext/ontario_theme/templates/internal/package/read.html:17
 msgid "Groups"
-msgstr ""
+msgstr "团体"
 
 #: ckanext/ontario_theme/templates/internal/group/edit_base.html:19
 #: ckanext/ontario_theme/templates/internal/organization/edit_base.html:21
 msgid "Members"
-msgstr ""
+msgstr "成员"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:10
 msgid "Add Group"
-msgstr ""
+msgstr "添加组"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:17
 msgid "Browse datasets and resources organized by a specific theme or topic."
-msgstr ""
+msgstr "浏览按特定主题或主题组织的数据集和资源。"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:22
 msgid "Search groups"
-msgstr ""
+msgstr "搜索组"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:28
 #: ckanext/ontario_theme/templates/internal/organization/index.html:41
@@ -1502,7 +1486,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/read.html:20
 #: ckanext/ontario_theme/templates/internal/package/search.html:36
 msgid "Name Ascending"
-msgstr ""
+msgstr "名字升序"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:46
 #: ckanext/ontario_theme/templates/internal/group/read.html:22
@@ -1510,38 +1494,38 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/read.html:21
 #: ckanext/ontario_theme/templates/internal/package/search.html:37
 msgid "Name Descending"
-msgstr ""
+msgstr "名称降序"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:64
 msgid "There are currently no groups for this site"
-msgstr ""
+msgstr "该网站目前没有群组"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:66
 #: ckanext/ontario_theme/templates/internal/organization/index.html:105
 msgid "How about creating one?"
-msgstr ""
+msgstr "创建一个怎么样？"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:20
 #: ckanext/ontario_theme/templates/internal/organization/read.html:19
 #: ckanext/ontario_theme/templates/internal/package/search.html:35
 msgid "Relevance"
-msgstr ""
+msgstr "相关性"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:23
 #: ckanext/ontario_theme/templates/internal/organization/read.html:22
 #: ckanext/ontario_theme/templates/internal/package/search.html:38
 msgid "Last Modified"
-msgstr ""
+msgstr "最后修改"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:24
 #: ckanext/ontario_theme/templates/internal/organization/read.html:23
 #: ckanext/ontario_theme/templates/internal/package/search.html:41
 msgid "Popular"
-msgstr ""
+msgstr "流行"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:44
 msgid "Search datasets"
-msgstr ""
+msgstr "搜索数据集"
 
 #: ckanext/ontario_theme/templates/internal/group/read_base.html:21
 #: ckanext/ontario_theme/templates/internal/organization/read_base.html:21
@@ -1549,31 +1533,31 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/package/activity.html:10
 #: ckanext/ontario_theme/templates/internal/package/read.html:18
 msgid "Activity Stream"
-msgstr ""
+msgstr "活动流"
 
 #: ckanext/ontario_theme/templates/internal/group/snippets/info.html:10
 #: ckanext/ontario_theme/templates/internal/package/read.html:68
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:21
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:27
 msgid "Deleted"
-msgstr ""
+msgstr "删除"
 
 #: ckanext/ontario_theme/templates/internal/group/snippets/info.html:18
 msgid "read more"
-msgstr ""
+msgstr "了解更多"
 
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:3
 #: ckanext/ontario_theme/templates/internal/snippets/home_breadcrumb_item.html:2
 msgid "Home"
-msgstr ""
+msgstr "回家"
 
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:30
 msgid "Most popular datasets"
-msgstr ""
+msgstr "最流行的数据集"
 
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:34
 msgid "COVID datasets"
-msgstr ""
+msgstr "新冠病毒数据集"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:348
 msgid ""
@@ -1600,15 +1584,15 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_covid_datasets.html:21
 #, python-format
 msgid "<a href=\"%(url)s\">Show more</a>"
-msgstr ""
+msgstr "<a href=\"%(url)s\">显示更多</a>"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_featured_content.html:11
 msgid "Decorative image"
-msgstr ""
+msgstr "装饰图像"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_intro.html:12
 msgid "Welcome"
-msgstr ""
+msgstr "欢迎"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_intro.html:15
 msgid ""
@@ -1618,82 +1602,82 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_intro.html:19
 msgid "Learn more about Colby"
-msgstr ""
+msgstr "了解更多关于科尔比的信息"
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:20
 msgid "Add Ministry"
-msgstr ""
+msgstr "添加部委"
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:31
 msgid "Find data published by each of Ontario's Ministries."
-msgstr ""
+msgstr "查找安大略省各部委发布的数据。"
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:38
 msgid "Search ministries"
-msgstr ""
+msgstr "搜索部委"
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:103
 msgid "There are currently no ministries for this site"
-msgstr ""
+msgstr "该站点目前没有部门"
 
 #: ckanext/ontario_theme/templates/internal/organization/new.html:4
 #: ckanext/ontario_theme/templates/internal/organization/new.html:11
 #: ckanext/ontario_theme/templates/internal/organization/new.html:17
 msgid "Create a Ministry"
-msgstr ""
+msgstr "创建部委"
 
 #: ckanext/ontario_theme/templates/internal/organization/read.html:29
 #, python-format
 msgid "Search %(ministry)s datasets"
-msgstr ""
+msgstr "搜索 %(ministry)s 数据集"
 
 #: ckanext/ontario_theme/templates/internal/organization/snippets/organization_item.html:9
 msgid "View {organization_name}"
-msgstr ""
+msgstr "查看{组织名称}"
 
 #: ckanext/ontario_theme/templates/internal/organization/snippets/organization_item.html:15
 msgid "Datasets: {num}"
-msgstr ""
+msgstr "数据集：{num}"
 
 #: ckanext/ontario_theme/templates/internal/package/base.html:24
 msgid "Create Dataset"
-msgstr ""
+msgstr "创建数据集"
 
 #: ckanext/ontario_theme/templates/internal/package/edit_base.html:14
 msgid "View dataset"
-msgstr ""
+msgstr "查看数据集"
 
 #: ckanext/ontario_theme/templates/internal/package/edit_base.html:18
 msgid "Edit metadata"
-msgstr ""
+msgstr "编辑元数据"
 
 #: ckanext/ontario_theme/templates/internal/package/edit_base.html:19
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:17
 msgid "Associate this group with this dataset"
-msgstr ""
+msgstr "将此组与此数据集关联"
 
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:17
 msgid "Add to group"
-msgstr ""
+msgstr "添加到群组"
 
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:29
 msgid "There are no groups associated with this dataset"
-msgstr ""
+msgstr "没有与此数据集关联的组"
 
 #: ckanext/ontario_theme/templates/internal/package/new_package_form.html:8
 msgid "Save and finish"
-msgstr ""
+msgstr "保存并完成"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:16
 msgid "Dataset"
-msgstr ""
+msgstr "数据集"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:28
 msgid "Algorithm/AI Asset"
-msgstr ""
+msgstr "算法/AI资产"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:33
 #, python-format
@@ -1706,7 +1690,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:48
 msgid "Private"
-msgstr ""
+msgstr "私人"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:54
 #, python-format
@@ -1717,26 +1701,26 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:66
 msgid "Draft"
-msgstr ""
+msgstr "选秀"
 
 #: ckanext/ontario_theme/templates/internal/package/read_base.html:8
 msgid "Keep updated"
-msgstr ""
+msgstr "保持更新"
 
 #: ckanext/ontario_theme/templates/internal/package/read_base.html:10
 msgid "Subscribe to updates to this dataset using RSS."
-msgstr ""
+msgstr "使用 RSS 订阅此数据集的更新。"
 
 #: ckanext/ontario_theme/templates/internal/package/read_base.html:14
 msgid "Subscribe"
-msgstr ""
+msgstr "订阅"
 
 #: ckanext/ontario_theme/templates/internal/package/resource_read.html:14
 #: ckanext/ontario_theme/templates/internal/package/resource_read.html:21
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:40
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:46
 msgid "URL:"
-msgstr ""
+msgstr "网址："
 
 #: ckanext/ontario_theme/templates/internal/package/resources.html:14
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:89
@@ -1748,54 +1732,54 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/search.html:39
 msgid "Recently Created"
-msgstr ""
+msgstr "最近创建"
 
 #: ckanext/ontario_theme/templates/internal/package/search.html:40
 msgid "Datasets With Data"
-msgstr ""
+msgstr "有数据的数据集"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:2
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:195
 msgid "Additional information"
-msgstr ""
+msgstr "附加信息"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:6
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:200
 msgid "Field"
-msgstr ""
+msgstr "田野"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:7
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:201
 msgid "Value"
-msgstr ""
+msgstr "价值"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:14
 msgid "Source"
-msgstr ""
+msgstr "来源"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:26
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:33
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:39
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:46
 msgid "Maintainer"
-msgstr ""
+msgstr "维护者"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:52
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:64
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:38
 msgid "Last Updated"
-msgstr ""
+msgstr "最后更新"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:72
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:215
 msgid "Created"
-msgstr ""
+msgstr "创建"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/ontario_theme_language_disclaimer.html:8
 #, python-format
@@ -1826,22 +1810,22 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/package_form.html:53
 msgid "Are you sure you want to delete this dataset?"
-msgstr ""
+msgstr "您确定要删除该数据集吗？"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/package_form.html:55
 #: ckanext/ontario_theme/templates/internal/scheming/group/group_form.html:29
 #: ckanext/ontario_theme/templates/internal/scheming/organization/group_form.html:30
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:43
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/package_form.html:64
 msgid "Save and Add Data"
-msgstr ""
+msgstr "保存并添加数据"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/report_an_error.html:4
 msgid "Report an error with this data"
-msgstr ""
+msgstr "报告此数据错误"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/report_an_error.html:6
 #, python-format
@@ -1853,120 +1837,120 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_form.html:7
 msgid "Resource"
-msgstr ""
+msgstr "资源"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:19
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:56
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:82
 msgid "Download"
-msgstr ""
+msgstr "下载"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:91
 msgid "Open"
-msgstr ""
+msgstr "开放"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_views_list_item.html:3
 msgid "Data Visualizer"
-msgstr ""
+msgstr "数据可视化工具"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:9
 msgid "Learn more about "
-msgstr ""
+msgstr "了解更多"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:9
 msgid "accessing data using different file types."
-msgstr ""
+msgstr "使用不同的文件类型访问数据。"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:32
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:34
 msgid "Date range"
-msgstr ""
+msgstr "日期范围"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:49
 msgid "No date range"
-msgstr ""
+msgstr "无日期范围"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:76
 msgid "Supporting Files"
-msgstr ""
+msgstr "支持文件"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:85
 msgid "This dataset has no supporting files"
-msgstr ""
+msgstr "该数据集没有支持文件"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:95
 msgid "This dataset has no data"
-msgstr ""
+msgstr "该数据集没有数据"
 
 #: ckanext/ontario_theme/templates/internal/scheming/form_snippets/_organization_select.html:17
 msgid "No organization"
-msgstr ""
+msgstr "没有组织"
 
 #: ckanext/ontario_theme/templates/internal/scheming/group/group_form.html:23
 msgid "Are you sure you want to delete this Collection?"
-msgstr ""
+msgstr "您确定要删除这个收藏吗？"
 
 #: ckanext/ontario_theme/templates/internal/scheming/group/group_form.html:38
 msgid "Save Group"
-msgstr ""
+msgstr "拯救集团"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/about.html:28
 msgid "For more information"
-msgstr ""
+msgstr "了解更多信息"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/about.html:33
 msgid "Contact"
-msgstr ""
+msgstr "接触"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/group_form.html:24
 msgid "Are you sure you want to delete this Ministry?"
-msgstr ""
+msgstr "你确定要删除这个部门吗？"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/group_form.html:39
 msgid "Save Ministry"
-msgstr ""
+msgstr "拯救部"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:55
 msgid "From the dataset abstract"
-msgstr ""
+msgstr "来自数据集摘要"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:60
 #, python-format
 msgid "Source: <a href=\"%(url)s\">%(dataset)s</a>"
-msgstr ""
+msgstr "来源：<a href=\"%(url)s\">%(数据集)s</a>"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:82
 msgid "Download data"
-msgstr ""
+msgstr "下载数据"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:84
 msgid "Access data"
-msgstr ""
+msgstr "访问数据"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:126
 msgid "Use the data API"
-msgstr ""
+msgstr "使用数据API"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:127
 msgid "Loading..."
-msgstr ""
+msgstr "加载中..."
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:134
 msgid "CKAN Data API calls"
-msgstr ""
+msgstr "CKAN 数据 API 调用"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:141
 msgid "Visualize data"
-msgstr ""
+msgstr "可视化数据"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:142
 msgid ""
@@ -1976,55 +1960,55 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:207
 msgid "Last updated"
-msgstr ""
+msgstr "年：最后更新"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:209
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:216
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:222
 msgid "unknown"
-msgstr ""
+msgstr "未知"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:221
 msgid "Format"
-msgstr ""
+msgstr "格式化"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:229
 msgid "File size"
-msgstr ""
+msgstr "文件大小"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:230
 msgid "unknown size"
-msgstr ""
+msgstr "尺寸未知"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:237
 #: ckanext/ontario_theme/templates/internal/snippets/license.html:21
 msgid "Licence"
-msgstr ""
+msgstr "执照"
 
 #: ckanext/ontario_theme/templates/internal/snippets/add_dataset.html:5
 msgid "Add Dataset"
-msgstr ""
+msgstr "添加数据集"
 
 #: ckanext/ontario_theme/templates/internal/snippets/facet_list.html:51
 msgid "Show more"
-msgstr ""
+msgstr "显示更多"
 
 #: ckanext/ontario_theme/templates/internal/snippets/facet_list.html:54
 msgid "Show less"
-msgstr ""
+msgstr "显示较少"
 
 #: ckanext/ontario_theme/templates/internal/snippets/facet_list.html:58
 msgid "There are no {facet_type} that match this search"
-msgstr ""
+msgstr "没有与此搜索匹配的 {facet_type}"
 
 #: ckanext/ontario_theme/templates/internal/snippets/license.html:32
 msgid "This dataset satisfies the Open Definition."
-msgstr ""
+msgstr "该数据集满足开放定义。"
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:7
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:25
 msgid "Ministry"
-msgstr ""
+msgstr "事工"
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:36
 msgid "{number} dataset"
@@ -2033,23 +2017,23 @@ msgstr[0] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:40
 msgid "datasets"
-msgstr ""
+msgstr "数据集"
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:51
 msgid "Read more"
-msgstr ""
+msgstr "阅读更多"
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:58
 msgid "There is no description for this ministry."
-msgstr ""
+msgstr "没有对该部门的描述。"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:23
 msgid "Algorithm/AI"
-msgstr ""
+msgstr "算法/人工智能"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:30
 msgid "ON External"
-msgstr ""
+msgstr "外部开启"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:36
 msgid "ON Geohub"
@@ -2057,31 +2041,31 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:62
 msgid "Resource formats"
-msgstr ""
+msgstr "资源格式"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:84
 msgid "This dataset has no description"
-msgstr ""
+msgstr "该数据集没有描述"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:87
 msgid "Not available to the public"
-msgstr ""
+msgstr "不向公众开放"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:89
 msgid "Access to this dataset is restricted"
-msgstr ""
+msgstr "对该数据集的访问受到限制"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:91
 msgid "This dataset is currently under review"
-msgstr ""
+msgstr "该数据集目前正在审核中"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_form.html:92
 msgid "Remove"
-msgstr ""
+msgstr "删除"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_form.html:101
 msgid "Filter Results"
-msgstr ""
+msgstr "筛选结果"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:15
 msgid ""
@@ -2094,7 +2078,7 @@ msgstr[0] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:16
 msgid "No datasets found with the keyword(s) <strong>\"{query}\"</strong>"
-msgstr ""
+msgstr "未找到包含关键字 <strong>\"{query}\"</strong> 的数据集"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:17
 msgid "<strong>{number} dataset</strong> found"
@@ -2103,7 +2087,7 @@ msgstr[0] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:18
 msgid "No datasets found"
-msgstr ""
+msgstr "找不到数据集"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:20
 msgid ""
@@ -2116,7 +2100,7 @@ msgstr[0] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:21
 msgid "No groups found with the keyword(s) <strong>\"{query}\"</strong>"
-msgstr ""
+msgstr "未找到包含关键字 <strong>\"{query}\"</strong> 的群组"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:22
 msgid "<strong>{number} group</strong> found"
@@ -2125,7 +2109,7 @@ msgstr[0] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:23
 msgid "No groups found"
-msgstr ""
+msgstr "找不到组"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:25
 msgid "<strong>{number} ministry</strong> found for <strong>\"{query}\"</strong>"
@@ -2136,7 +2120,7 @@ msgstr[0] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:26
 msgid "No ministries found with the keyword(s) <strong>\"{query}\"</strong>"
-msgstr ""
+msgstr "未找到包含关键字 <strong>\"{query}\"</strong> 的部门"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:27
 msgid "<strong>{number} ministry</strong> found"
@@ -2145,136 +2129,136 @@ msgstr[0] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:28
 msgid "No ministries found"
-msgstr ""
+msgstr "没有找到部委"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:9
 msgid "My Datasets"
-msgstr ""
+msgstr "我的数据集"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:10
 msgid "News feed"
-msgstr ""
+msgstr "新闻提要"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:11
 msgid "My Ministries"
-msgstr ""
+msgstr "我的事工"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:12
 msgid "My Groups"
-msgstr ""
+msgstr "我的团体"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:9
 msgid "Change details"
-msgstr ""
+msgstr "改变细节"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:10
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:8
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:7
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:11
 msgid "Full name"
-msgstr ""
+msgstr "全名"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:11
 msgid "eg. Joe Bloggs"
-msgstr ""
+msgstr "例如。"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:12
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:9
 msgid "Email"
-msgstr ""
+msgstr "电子邮件"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:12
 msgid "eg. joe@example.com"
-msgstr ""
+msgstr "例如。 "
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:13
 msgid "A little information about yourself"
-msgstr ""
+msgstr "一些关于你自己的信息"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:15
 msgid "Subscribe to notification emails"
-msgstr ""
+msgstr "订阅通知电子邮件"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:22
 msgid "Change password"
-msgstr ""
+msgstr "更改密码"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:25
 msgid "Sysadmin Password"
-msgstr ""
+msgstr "系统管理员密码"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:25
 msgid "Old Password"
-msgstr ""
+msgstr "旧密码"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:32
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:9
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:10
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:33
 msgid "Confirm Password"
-msgstr ""
+msgstr "确认密码"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:41
 msgid "Are you sure you want to delete this User?"
-msgstr ""
+msgstr "您确定要删除该用户吗？"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:54
 msgid "Are you sure you want to regenerate the API key?"
-msgstr ""
+msgstr "您确定要重新生成API密钥吗？"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:56
 msgid "Regenerate API Key"
-msgstr ""
+msgstr "重新生成 API 密钥"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:63
 msgid "Update Profile"
-msgstr ""
+msgstr "更新个人资料"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:7
 msgid "You're already logged in as {user}."
-msgstr ""
+msgstr "您已经以 {user} 身份登录。"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:7
 msgid "Logout"
-msgstr ""
+msgstr "退出"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:10
 msgid "Remember me"
-msgstr ""
+msgstr "记住我"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:12
 msgid "Log in"
-msgstr ""
+msgstr "登录"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:18
 msgid "You're already logged in"
-msgstr ""
+msgstr "您已经登录"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:20
 msgid "You need to log out before you can log in with another account."
-msgstr ""
+msgstr "您需要先注销，然后才能使用其他帐户登录。"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:21
 msgid "Log out now"
-msgstr ""
+msgstr "现在退出"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:7
 msgid "username"
-msgstr ""
+msgstr "用户名"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:8
 msgid "Full Name"
-msgstr ""
+msgstr "全名"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:8
 msgid "Joe Bloggs"
-msgstr ""
+msgstr "乔·布洛格斯"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:9
 msgid "joe@example.com"
@@ -2282,9 +2266,68 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:11
 msgid "Confirm"
-msgstr ""
+msgstr "确认"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:18
 msgid "Create Account"
-msgstr ""
+msgstr "创建帐户"
 
+
+# added by me
+
+msgid "Search Data"
+msgstr "搜索数据"
+
+msgid "Find data published by each of Organization."
+msgstr "找到每个组织发布的数据。"
+
+msgid "datasets published by the UN."
+msgstr "联合国发布的数据集。"
+
+#: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_cateogories.html
+
+msgid "Justice and Public Safety"
+msgstr "司法与公共安全"
+
+msgid "Agriculture and Food"
+msgstr "农业与食品"
+
+msgid "Housing, Communities and Social Support"
+msgstr "住房、社区和社会支持"
+
+msgid "Education and Training"
+msgstr "教育与培训"
+
+msgid "Economy and Business"
+msgstr "经济与商业"
+
+msgid "Culture and Recreation"
+msgstr "文化与娱乐"
+
+msgid "Environment and Natural Resources"
+msgstr "环境与自然资源"
+
+msgid "Government and Finance"
+msgstr "政府和财政"
+
+msgid "Health"
+msgstr "健康"
+
+msgid "Infrastructure and Transportation"
+msgstr "基础设施和交通"
+
+
+msgid "Tell us what you think about our data and how you’re using it."
+msgstr "告诉我们您对我们的数据的看法以及您如何使用它。"
+
+msgid "Take our survey"
+msgstr "参加我们的调查"
+
+#: ckanext/ontario_theme/templates/external/header.html:9
+msgid "Data Catalogue"
+msgstr "数据目录
+
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:23
+#, python-format
+msgid "Take a 2-minute survey and tell us what you think about this page."
+msgstr "进行 2 分钟的调查，告诉我们您对此页面的看法。"

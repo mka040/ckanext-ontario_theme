@@ -1,20 +1,20 @@
 {% ckan_extends %}
 
 {% block subtitle %}
-  {{ _('Create a Ministry') }}
+{{ _('Create a Organization') }}
 {% endblock subtitle %}
 
 {% block breadcrumb_content %}
-  <li>{{ h.nav_link(_('Ministries'), named_route=group_type+'.index') }}</li>
-  <li class="active">
-    {% block breadcrumb_link %}
-      {{ h.nav_link(_('Create a Ministry'), named_route=group_type+'.new') }}
-    {% endblock breadcrumb_link %}
-  </li>
+<li>{{ h.nav_link(_('Organization'), named_route=group_type+'.index') }}</li>
+<li class="active">
+  {% block breadcrumb_link %}
+  {{ h.nav_link(_('Create a Organization'), named_route=group_type+'.new') }}
+  {% endblock breadcrumb_link %}
+</li>
 {% endblock breadcrumb_content %}
 
 {% block page_heading %}
-  {{ _('Create a Ministry') }}
+{{ _('Create a Organization') }}
 {% endblock page_heading %}
 
 {% block secondary_content %}

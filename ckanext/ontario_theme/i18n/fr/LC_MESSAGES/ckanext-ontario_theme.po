@@ -2551,3 +2551,6 @@ msgstr "Haut"
 # added by me
 msgid "Organization"
 msgstr "Organisation"
+
+msgid "covid data"
+msgstr "Données COVID"

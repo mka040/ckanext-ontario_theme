@@ -1,121 +1,195 @@
 {
-    "scheming_version": 1,
-    "about_url": "http://github.com/ckan/ckanext-scheming",
-    "type": "organization",
-    "organization_type": "organization",
-    "form_languages": ["en", "fr"],
-    "fields": [
+  "scheming_version": 1,
+  "about_url": "http://github.com/ckan/ckanext-scheming",
+  "type": "organization",
+  "organization_type": "organization",
+  "form_languages": [
+    "en",
+    "fr",
+    "ar",
+    "ru",
+    "zh_Hans_CN",
+    "es_AR"
+  ],
+  "fields": [
+    {
+      "field_name": "title_translated",
+      "label": {
+        "en": "Name",
+        "fr": "Nom",
+        "ar": "الاسم",
+        "ru": "Название",
+        "zh_Hans_CN": "名称",
+        "es_AR": "Nombre"
+      },
+      "preset": "fluent_core_translated",
+      "form_snippet": "extrafields_fluent_title.html",
+      "classes": [
+        "col-md-12",
+        "form-group"
+      ]
+    },
+    {
+      "field_name": "name",
+      "label": "URL",
+      "preset": "dataset_slug",
+      "form_placeholder": "eg. my-organization"
+    },
+    {
+      "field_name": "description_translated",
+      "label": {
+        "en": "Description",
+        "fr": "Description",
+        "ar": "الوصف",
+        "ru": "Описание",
+        "zh_Hans_CN": "描述",
+        "es_AR": "Descripción"
+      },
+      "preset": "fluent_core_translated",
+      "classes": [
+        "col-md-12",
+        "form-group"
+      ]
+    },
+    {
+      "field_name": "org_contact",
+      "label": {
+        "en": "Ministry Contact",
+        "fr": "Contact du Ministère",
+        "ar": "جهة الاتصال في الوزارة",
+        "ru": "Контактное лицо в Министерстве",
+        "zh_Hans_CN": "部委联系人",
+        "es_AR": "Contacto del Ministerio"
+      },
+      "preset": "fluent_text",
+      "classes": [
+        "form-group",
+        "col-md-12"
+      ]
+    },
+    {
+      "field_name": "jurisdiction",
+      "label": {
+        "en": "Jurisdiction",
+        "fr": "Juridiction",
+        "ar": "الولاية",
+        "ru": "Юрисдикция",
+        "zh_Hans_CN": "管辖范围",
+        "es_AR": "Jurisdicción"
+      },
+      "required": true,
+      "help_inline": true,
+      "help_text": {
+        "en": "The extent or range of judicial, law enforcement or other authority. Example: Level of government that contributed the dataset.",
+        "fr": "Étendue de l’autorité judiciaire, de l’autorité d’application de la loi ou d’un autre type d’autorité. Par exemple, l'ordre de gouvernement ayant fourni le jeu de données.",
+        "ar": "مدى أو نطاق السلطة القضائية أو إنفاذ القانون أو السلطة الأخرى. مثال: مستوى الحكومة التي ساهمت في جمع البيانات.",
+        "ru": "Степень или сфера юрисдикции, правоохранительных органов или другой власти. Пример: уровень правительства, внесшего вклад в набор данных.",
+        "zh_Hans_CN": "司法、执法或其他权力的范围或范围。示例：为数据集做出贡献的政府层级。",
+        "es_AR": "Alcance o ámbito de la autoridad judicial, de aplicación de la ley u otra autoridad. Ejemplo: Nivel de gobierno que contribuyó al conjunto de datos."
+      },
+      "classes": [
+        "form-group",
+        "col-md-12"
+      ],
+      "preset": "select",
+      "validators": "default(provincial) scheming_choices scheming_required",
+      "choices": [
         {
-          "field_name": "title_translated",
+          "value": "provincial",
           "label": {
-            "en": "Name",
-            "fr": "Nom"
-          },
-          "preset": "fluent_core_translated",
-          "form_snippet": "extrafields_fluent_title.html",
-          "classes": ["col-md-12","form-group"]
+            "en": "Provincial",
+            "fr": "Provinciale",
+            "ar": "محلي",
+            "ru": "Областной",
+            "zh_Hans_CN": "省级",
+            "es_AR": "Provincial"
+          }
         },
         {
-          "field_name": "name",
-          "label": "URL",
-          "preset": "dataset_slug",
-          "form_placeholder": "eg. my-organization"
+          "value": "federal",
+          "label": {
+            "en": "Federal",
+            "fr": "Fédérale",
+            "ar": "فدرالي",
+            "ru": "Федеральный",
+            "zh_Hans_CN": "联邦",
+            "es_AR": "Federal"
+          }
         },
         {
-          "field_name": "description_translated",
+          "value": "municipal",
           "label": {
-            "en": "Description",
-            "fr": "Description"
-          },
-          "preset": "fluent_core_translated",
-          "classes": ["col-md-12","form-group"]
-        },
-        {
-          "field_name": "org_contact",
-          "label": {
-            "en": "Ministry Contact",
-            "fr": "Contact du Ministère"
-          },
-          "preset": "fluent_text",
-          "classes": ["form-group","col-md-12"]
-        },
-        {
-          "field_name": "jurisdiction",
-          "label": {
-            "en": "Jurisdiction",
-            "fr": "Juridiction"
-          },
-          "required": true,
-          "help_inline" : true,
-          "help_text": {
-            "en": "The extent or range of judicial, law enforcement or other authority. Example: Level of government that contributed the dataset.",
-            "fr": "Étendue de l’autorité judiciaire, de l’autorité d’application de la loi ou d’un autre type d’autorité. Par exemple, l'ordre de gouvernement ayant fourni le jeu de données."
-          }, 
-          "classes": ["form-group","col-md-12"],
-          "preset": "select",
-          "validators": "default(provincial) scheming_choices scheming_required",
-          "choices": [
-            {
-              "value": "provincial",
-              "label": {
-                "en": "Provincial",
-                "fr": "Provinciale"
-              }
-            },
-            {
-              "value": "federal",
-              "label": {
-                "en": "Federal",
-                "fr": "Fédérale"
-              }
-            },
-            {
-              "value": "municipal",
-              "label": {
-                "en": "Municipal",
-                "fr": "Municipale"
-              }
-            }
-          ]
-        },
-        {
-          "field_name": "category",
-          "label": {
-            "en": "Category",
-            "fr": "Catégorie"
-          },
-          "required": true,
-          "help_inline" : true,
-          "help_text": {
-            "en": "The classification or type of organization. Ministry is most common for this catalogue but in some rare circumstances another category of organization is needed.",
-            "fr": "La classification ou le type d'organisation. Le ministère est le plus courant pour ce catalogue, mais dans de rares cas, une autre catégorie d'organisation est nécessaire."
-          }, 
-          "classes": ["form-group","col-md-12"],
-          "preset": "select",
-          "validators": "default(ministry) scheming_choices scheming_required",
-          "choices": [
-            {
-              "value": "ministry",
-              "label": {
-                "en": "Ministry",
-                "fr": "Ministère"
-              }
-            },
-            {
-              "value": "agency",
-              "label": {
-                "en": "Agency",
-                "fr": "Agence"
-              }
-            },
-            {
-              "value": "crown_corporation",
-              "label": {
-                "en": "Crown Corporation",
-                "fr": "Société d'État"
-              }
-            }
-          ]
+            "en": "Municipal",
+            "fr": "Municipale",
+            "ar": "بلدي",
+            "ru": "Муниципальный",
+            "zh_Hans_CN": "市级",
+            "es_AR": "Municipal"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "field_name": "category",
+      "label": {
+        "en": "Category",
+        "fr": "Catégorie",
+        "ar": "الفئة",
+        "ru": "Категория",
+        "zh_Hans_CN": "类别",
+        "es_AR": "Categoría"
+      },
+      "required": true,
+      "help_inline": true,
+      "help_text": {
+        "en": "The classification or type of organization. Ministry is most common for this catalog, but in some rare circumstances another category of organization is needed.",
+        "fr": "La classification ou le type d'organisation. Le ministère est le plus courant pour ce catalogue, mais dans de rares cas, une autre catégorie d'organisation est nécessaire.",
+        "ar": "تصنيف أو نوع المنظمة. وزارة هي الأكثر شيوعًا في هذا الكتالوج ، ولكن في بعض الحالات النادرة ، قد يكون هناك حاجة إلى فئة أخرى من المنظمة.",
+        "ru": "Классификация или тип организации. Министерство наиболее распространено в этом каталоге, но в некоторых редких случаях требуется другая категория организации.",
+        "zh_Hans_CN": "组织的分类或类型。部委是此目录中最常见的，但在某些罕见情况下，需要其他组织类别。",
+        "es_AR": "La clasificación o tipo de organización. El ministerio es el más común para este catálogo, pero en algunas circunstancias excepcionales se necesita otra categoría de organización."
+      },
+      "classes": [
+        "form-group",
+        "col-md-12"
+      ],
+      "preset": "select",
+      "validators": "default(ministry) scheming_choices scheming_required",
+      "choices": [
+        {
+          "value": "ministry",
+          "label": {
+            "en": "Ministry",
+            "fr": "Ministère",
+            "ar": "وزارة",
+            "ru": "Министерство",
+            "zh_Hans_CN": "部委",
+            "es_AR": "Ministerio"
+          }
+        },
+        {
+          "value": "agency",
+          "label": {
+            "en": "Agency",
+            "fr": "Agence",
+            "ar": "وكالة",
+            "ru": "Агентство",
+            "zh_Hans_CN": "机构",
+            "es_AR": "Agencia"
+          }
+        },
+        {
+          "value": "crown_corporation",
+          "label": {
+            "en": "Crown Corporation",
+            "fr": "Société d'État",
+            "ar": "شركة تاج",
+            "ru": "Корпорация Королевы",
+            "zh_Hans_CN": "皇冠公司",
+            "es_AR": "Corporación de la Corona"
+          }
+        }
+      ]
+    }
+  ]
 }

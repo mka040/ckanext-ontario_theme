@@ -50,17 +50,8 @@ msgstr "Свяжитесь с нами"
 msgid "https://www.ontario.ca/feedback/contact-us?id=532365&nid=138269"
 msgstr "https://www.ontario.ca/feedback/contact-us?id=532365"
 
-#: ckanext/ontario_theme/templates/external/header.html:9
-msgid "Data Catalogue"
-msgstr "Каталог данных"
 
-#: ckanext/ontario_theme/templates/external/header.html:20
 
-msgid "Tell us what you think about our data and how you’re using it."
-msgstr "Расскажите нам, что вы думаете о наших данных и о том, как вы их используете."
-
-msgid "Take our survey"
-msgstr "Примите участие в нашем опросе."
 
 #: ckanext/ontario_theme/templates/external/home/about.html:7
 #: ckanext/ontario_theme/templates/internal/header.html:91
@@ -1916,3 +1907,16 @@ msgstr "Здравоохранение"
 
 msgid "Infrastructure and Transportation"
 msgstr "Инфраструктура и транспорт"
+
+
+#: ckanext/ontario_theme/templates/external/header.html:20
+
+msgid "Tell us what you think about our data and how you’re using it."
+msgstr "Расскажите нам, что вы думаете о наших данных и о том, как вы их используете."
+
+msgid "Take our survey"
+msgstr "Примите участие в нашем опросе."
+
+#: ckanext/ontario_theme/templates/external/header.html:9
+msgid "Data Catalogue"
+msgstr "Каталог данных"
