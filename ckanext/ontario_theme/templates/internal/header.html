@@ -70,11 +70,30 @@ Variables used in the code: current_Lang, toggle_to, placeholder, sr_input_text,
         {% endblock header_account_log_out_link %}
         {% endblock header_account_logged %}
       </ul>
+      {% endif %}
     </div>
+    {% if c.userobj %}{% else %}
+    <nav class="account not-authed " aria-label="{{ _('Account') }}">
+      <div class="container mt-2">
+        <ul class="list-unstyled ">
+          {% block header_account_notlogged %}
+          <li>{% link_for _('Login'), named_route='user.login' %}</li>
+          {% if h.check_access('user_create') %}
+          <li>{% link_for _('Register'), named_route='user.register', class_='sub' %}</li>
+          {% endif %} {% endblock %}
+        </ul>
+      </div>
+    </nav>
+    {% endif %}
+
+
   </div>
-  {% endif %}
+
+
+
   {% endblock header_account_container_content %}
   {% endblock header_account %}
+
 
   <header class="ontario-application-header ontario-header" id="ontario-header">
     <div class="ontario-row">
@@ -110,7 +129,26 @@ Variables used in the code: current_Lang, toggle_to, placeholder, sr_input_text,
           class="ontario-header__language-toggler ontario-header-button ontario-header-button--without-outline">
           <span>{{ 'Español'}}</span>
         </a>
+        {# {% if c.userobj %}{% else %}
+        {% block header_account_notlogged %}
+        <a href="/user/login" title="{{ Login }}"
+          class="ontario-header__language-toggler ontario-header-button ontario-header-button--without-outline">
+          <span>{{ 'Login'}}</span>
+        </a>
+        {% if h.check_access('user_create') %}
+        <a href="/user/register" title="{{ Register }}"
+          class="ontario-header__language-toggler ontario-header-button ontario-header-button--without-outline">
+          <span>{{ 'Register'}}</span>
+        </a>
+        {% endif %} {% endblock %}
+
+        {% endif %}
+
+        #}
+
+
       </div>
+
     </div>
   </header>
   <div class="ontario-application-subheader-menu__container">
@@ -141,70 +179,6 @@ Variables used in the code: current_Lang, toggle_to, placeholder, sr_input_text,
               ('ontario_theme.help', _('Help')) ) }}
               {% endblock header_site_navigation_tabs %}
             </ul>
-            <!-- {% block header_site_search %}
-                  <form method="get"
-                        id="ontario-search-form-container"
-                        action="{%- url_for 'dataset.search' -%}"
-                        class="ontario-header__search-container ontario-columns"
-                        novalidate>
-                    <label class="ontario-label ontario-show-for-sr"
-                           for="ontario-search-input-field">{{ sr_input_text }}</label>
-                    <input class="ontario-search-input ontario-input header-search"
-                           type="text"
-                           id="ontario-search-input-field"
-                           name="q"
-                           placeholder="{%- block search_placeholder -%}{{ placeholder | truncate(26) }}{%- endblock search_placeholder -%}"
-                           value=""
-                           autocomplete="off"
-                           required />
-                    <input class="ontario-search-reset"
-                           id="ontario-search-reset"
-                           type="reset"
-                           value=""
-                           aria-label="Clear field" />
-                    <button class="ontario-search-submit header-search"
-                            id="ontario-search-submit"
-                            type="submit">
-                      <span class="ontario-show-for-sr">{{ sr_submit_text }}</span>
-                      <svg class="ontario-icon search header-search"
-                           focusable="false"
-                           sol:category="primary"
-                           viewBox="0 0 24 24"
-                           preserveAspectRatio="xMidYMid meet">
-                        <use xlink:href="#ontario-icon-search"></use>
-                      </svg>
-                    </button>
-                  </form>
-                  <button class="ontario-header__search-toggler ontario-header-button ontario-header-button--without-outline ontario-hide-for-large"
-                          id="ontario-header-search-toggler"
-                          aria-controls="ontario-search-form-container"
-                          type="button"
-                          aria-label="Search">
-                    <svg class="ontario-icon"
-                         focusable="false"
-                         sol:category="primary"
-                         viewBox="0 0 24 24"
-                         preserveAspectRatio="xMidYMid meet">
-                      <use xlink:href="#ontario-icon-search"></use>
-                    </svg>
-                  </button>
-                  <div class="ontario-header__search-close-container ontario-columns ontario-small-2 ontario-medium-3">
-                    <button class="ontario-header__search-close ontario-header-button ontario-header-button--without-outline"
-                            id="ontario-header-search-close"
-                            aria-label="close search bar"
-                            type="button">
-                      <span aria-hidden="true">close</span>
-                      <svg class="ontario-icon"
-                           focusable="false"
-                           sol:category="primary"
-                           viewBox="0 0 24 24"
-                           preserveAspectRatio="xMidYMid meet">
-                        <use xlink:href="#ontario-icon-close"></use>
-                      </svg>
-                    </button>
-                  </div>
-                {% endblock header_site_search %} -->
-
             <ul id="medium-navigation"
               class="ontario-application-subheader__menu ontario-hide-for-small ontario-show-for-medium ontario-hide-for-large">
               {{ h.build_nav_main(
