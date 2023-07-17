@@ -1008,13 +1008,7 @@ msgstr ""
 msgid "Help us improve the Data Catalogue"
 msgstr "Ayúdanos a mejorar el Catálogo de Datos"
 
-#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:23
-#, python-format
-msgid ""
-"Take a <a href=\"https://www.ontario.ca/form/survey-open-data-"
-"catalogue?%(params)s\">2-minute survey</a> and tell us what you think "
-"about this page."
-msgstr ""
+
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:8
 msgid "Catalogue"
@@ -1047,9 +1041,8 @@ msgstr "Buscar"
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:27
 #, python-format
 msgid ""
-"Learn more about <a href=\"%(url)s\">what is covered and how to use "
-"data.</a>"
-msgstr ""
+"Learn more about <a href="%(url)s">what is covered and how to use data.</a>"
+msgstr "Obtenga más información sobre <a href="%(url)s">qué se cubre y cómo usar los datos.</a>"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:4
 msgid "Resources and information"
