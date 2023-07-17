@@ -23,52 +23,52 @@ msgstr ""
 
 #: ckanext/ontario_theme/create_view.py:34
 msgid "Integrity Error"
-msgstr ""
+msgstr "خطأ في النزاهة"
 
 #: ckanext/ontario_theme/create_view.py:100
 msgid "Unauthorized to read package"
-msgstr ""
+msgstr "غير مصرح به لقراءة الحزمة"
 
 #: ckanext/ontario_theme/create_view.py:102
 msgid "Dataset not found"
-msgstr ""
+msgstr "لم يتم العثور على مجموعة البيانات"
 
 #: ckanext/ontario_theme/create_view.py:110
 msgid "Unable to add package to search index."
-msgstr ""
+msgstr "غير قادر على إضافة حزمة إلى فهرس البحث."
 
 #: ckanext/ontario_theme/plugin.py:173
 msgid "Supporting file"
-msgstr ""
+msgstr "دعم الملف"
 
 #: ckanext/ontario_theme/plugin.py:762
 msgid "Fiscal: "
-msgstr ""
+msgstr "مالي:"
 
 #: ckanext/ontario_theme/plugin.py:1028
 msgid "Need to be system administrator to administer"
-msgstr ""
+msgstr "تحتاج إلى أن تكون مسؤول النظام لإدارة"
 
 #: ckanext/ontario_theme/plugin.py:1051
 msgid "Access Level"
-msgstr ""
+msgstr "مستوى الوصول"
 
 #: ckanext/ontario_theme/plugin.py:1052
 msgid "Asset Type"
-msgstr ""
+msgstr "نوع الأصل"
 
 #: ckanext/ontario_theme/plugin.py:1053
 msgid "Update Frequency"
-msgstr ""
+msgstr "تحديث التردد"
 
 #: ckanext/ontario_theme/plugin.py:1054 ckanext/ontario_theme/plugin.py:1055
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:21
 msgid "Topics"
-msgstr ""
+msgstr "المواضيع"
 
 #: ckanext/ontario_theme/plugin.py:1056
 msgid "Licences"
-msgstr ""
+msgstr "التراخيص"
 
 #: ckanext/ontario_theme/plugin.py:1057
 #: ckanext/ontario_theme/templates/internal/header.html:139
@@ -85,69 +85,51 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/read_base.html:52
 #: ckanext/ontario_theme/templates/internal/package/base.html:10
 msgid "Ministries"
-msgstr ""
+msgstr "الوزارات"
 
 #: ckanext/ontario_theme/plugin.py:1059
 msgid "Jurisdiction"
-msgstr ""
+msgstr "ـ الاختصاص"
 
 #: ckanext/ontario_theme/plugin.py:1060
 msgid "Category"
-msgstr ""
+msgstr "الفئة"
 
 #: ckanext/ontario_theme/validators.py:30
 #, python-format
 msgid "Tag \"%s\" may not contain commas"
-msgstr ""
+msgstr "قد لا تحتوي العلامة \ "٪ s \" على فاصلات"
 
 #: ckanext/ontario_theme/validators.py:33
 #, python-format
 msgid "Tag \"%s\" may not contain consecutive spaces"
-msgstr ""
+msgstr "قد لا تحتوي العلامة \ "٪ s \" على مسافات متتالية"
 
 #: ckanext/ontario_theme/validators.py:39
 #, python-format
 msgid "Tag \"%s\" must be alphanumeric characters or symbols: ’'-_."
-msgstr ""
+msgstr "يجب أن تكون العلامة \ "٪ s \" أحرفًا أبجدية رقمية أو رموزًا: "" -_."
 
 #: ckanext/ontario_theme/validators.py:166
 msgid "This is a public catalogue field and can't be changed."
-msgstr ""
+msgstr "هذا حقل كتالوج عام ولا يمكن تغييره."
 
 #: ckanext/ontario_theme/templates/external/footer.html:17
 msgid "Contact Us"
-msgstr ""
+msgstr "اتصل بنا"
 
 #: ckanext/ontario_theme/templates/external/footer.html:23
 msgid "https://www.ontario.ca/feedback/contact-us?id=532365&nid=138269"
-msgstr ""
+msgstr "https: //www.ontario.ca/feedback/contact-us؟ id = 532365"
 
-#: ckanext/ontario_theme/templates/external/header.html:12
-msgid "Data Catalogue"
-msgstr ""
 
-#: ckanext/ontario_theme/templates/external/header.html:27
-msgid "Tell us what you think about our data and how you’re using it."
-msgstr ""
 
 #: ckanext/ontario_theme/templates/external/header.html:30
 msgid "https://www.ontario.ca/form/survey-open-data-catalogue"
 msgstr ""
 
-#: ckanext/ontario_theme/templates/external/header.html:33
-msgid "Take our survey"
-msgstr ""
 
-#: ckanext/ontario_theme/templates/external/home/help.html:4
-#: ckanext/ontario_theme/templates/external/home/help.html:8
-#: ckanext/ontario_theme/templates/external/home/help.html:14
-#: ckanext/ontario_theme/templates/internal/header.html:141
-#: ckanext/ontario_theme/templates/internal/header.html:242
-#: ckanext/ontario_theme/templates/internal/home/help.html:4
-#: ckanext/ontario_theme/templates/internal/home/help.html:8
-#: ckanext/ontario_theme/templates/internal/home/help.html:14
-msgid "Help"
-msgstr ""
+
 
 #: ckanext/ontario_theme/templates/external/home/help.html:15
 msgid ""
@@ -376,7 +358,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/home/help.html:243
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:354
 msgid "Figure 6: The screen where you can set the parameters for your graph."
-msgstr ""
+msgstr "الشكل 6: الشاشة حيث يمكنك ضبط معلمات الرسم البياني الخاص بك."
 
 #: ckanext/ontario_theme/templates/external/home/help.html:249
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:356
@@ -403,7 +385,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/help.html:265
 msgid "Q. How does the <strong>Map</strong> option work?"
-msgstr ""
+msgstr "س. "
 
 #: ckanext/ontario_theme/templates/external/home/help.html:271
 msgid ""
@@ -415,16 +397,16 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/home/help.html:278
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:373
 msgid "A screenshot of the map visualization."
-msgstr ""
+msgstr "لقطة شاشة لتصور الخريطة."
 
 #: ckanext/ontario_theme/templates/external/home/help.html:280
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:374
 msgid "Figure 8: Bridge conditions data, mapped in the data catalogue."
-msgstr ""
+msgstr "الشكل 8: بيانات شروط الجسر ، المعينة في كتالوج البيانات."
 
 #: ckanext/ontario_theme/templates/external/home/help.html:288
 msgid "Q. What if I don’t see a <strong>Preview</strong> button?"
-msgstr ""
+msgstr "س. "
 
 #: ckanext/ontario_theme/templates/external/home/help.html:294
 msgid ""
@@ -453,11 +435,11 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/home/help.html:309
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:390
 msgid "Figure 9: A description of a dataset, including its web address."
-msgstr ""
+msgstr "الشكل 9: وصف لمجموعة البيانات ، بما في ذلك عنوان الويب الخاص بها."
 
 #: ckanext/ontario_theme/templates/external/home/help.html:317
 msgid "Q. What if a dataset isn’t available in the format I need?"
-msgstr ""
+msgstr "س. "
 
 #: ckanext/ontario_theme/templates/external/home/help.html:323
 msgid ""
@@ -493,7 +475,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/help.html:363
 msgid "Q. Why isn't the data for a dataset available?"
-msgstr ""
+msgstr "س. "
 
 #: ckanext/ontario_theme/templates/external/home/help.html:369
 msgid ""
@@ -525,62 +507,62 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/help.html:404
 msgid "To receive RSS updates:"
-msgstr ""
+msgstr "لتلقي تحديثات RSS:"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:410
 msgid "Install an RSS reader on your device"
-msgstr ""
+msgstr "قم بتثبيت قارئ RSS على جهازك"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:415
 msgid "Choose the updates you want to receive"
-msgstr ""
+msgstr "اختر التحديثات التي تريد تلقيها"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:421
 msgid "Available updates:"
-msgstr ""
+msgstr "التحديثات المتوفرة:"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:427
 msgid "Any dataset is updated or added to the catalogue"
-msgstr ""
+msgstr "يتم تحديث أي مجموعة بيانات أو إضافتها إلى الكتالوج"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:434
 msgid "A specific dataset is updated"
-msgstr ""
+msgstr "تم تحديث مجموعة بيانات محددة"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:440
 msgid "name-of-specific-dataset"
-msgstr ""
+msgstr "اسم مجموعة بيانات محددة"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:446
 #: ckanext/ontario_theme/templates/external/home/help.html:464
 #: ckanext/ontario_theme/templates/external/home/help.html:482
 #: ckanext/ontario_theme/templates/external/home/help.html:500
 msgid "Example"
-msgstr ""
+msgstr "مثال"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:452
 msgid "A dataset with a specific tag is updated or added"
-msgstr ""
+msgstr "مجموعة بيانات بعلامة محددة يتم تحديثها أو إضافتها"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:458
 msgid "name-of-tag"
-msgstr ""
+msgstr "اسم الوسم"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:470
 msgid "A dataset based on your custom search term is updated or added"
-msgstr ""
+msgstr "يتم تحديث أو إضافة مجموعة بيانات تستند إلى مصطلح البحث المخصص الخاص بك"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:476
 msgid "custom search term"
-msgstr ""
+msgstr "مصطلح البحث المخصص"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:488
 msgid "A specific ministry updates or adds a dataset"
-msgstr ""
+msgstr "تقوم وزارة معينة بتحديث أو إضافة مجموعة بيانات"
 
 #: ckanext/ontario_theme/templates/external/home/help.html:494
 msgid "name-of-specific-ministry"
-msgstr ""
+msgstr "اسم وزارة محددة"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/about_text.html:2
 #, python-format
@@ -1026,23 +1008,19 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:18
 msgid "Help us improve the Data Catalogue"
-msgstr ""
+msgstr "ساعدنا في تحسين كتالوج البيانات"
 
-#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:23
-#, python-format
-msgid ""
-"Take a <a href=\"https://www.ontario.ca/form/survey-open-data-"
-"catalogue?%(params)s\">2-minute survey</a> and tell us what you think "
-"about this page."
-msgstr ""
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:15
+msgid "Take a <a href="https://www.ontario.ca/form/survey-open-data-catalogue?%(params)s\">2-minute survey</a> and tell us what you think about this page."
+msgstr "قم بأخذ <a href="https://www.ontario.ca/zh_Hans_CN/forme/enquete-catalogue-de-donnees-de-lontario?%(params)s\">استبيان لمدة دقيقتين</a> وأخبرنا برأيك حول هذه الصفحة."
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:8
 msgid "Catalogue"
-msgstr ""
+msgstr "كتالوج"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
 msgid "Find public data and explore "
-msgstr ""
+msgstr "ابحث عن البيانات العامة واستكشفها"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
 msgid ""
@@ -1052,7 +1030,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:18
 msgid "Search Data"
-msgstr ""
+msgstr "بيانات البحث"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:19
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:20
@@ -1062,58 +1040,57 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/index.html:40
 #: ckanext/ontario_theme/templates/internal/package/search.html:45
 msgid "Search"
-msgstr ""
+msgstr "بحث"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:27
 #, python-format
 msgid ""
-"Learn more about <a href=\"%(url)s\">what is covered and how to use "
-"data.</a>"
-msgstr ""
+"Learn more about <a href="%(url)s">what is covered and how to use data.</a>"
+msgstr "تعرف على المزيد حول <a href="%(url)s">ما يتم تغطيته وكيفية استخدام البيانات.</a>"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:4
 msgid "Resources and information"
-msgstr ""
+msgstr "مصادر ومعلومات"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:13
 msgid "https://www.ontario.ca/page/sharing-government-data"
-msgstr ""
+msgstr "https: //www.ontario.ca/page/sharing-government-data"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:14
 msgid "What is Open Data?"
-msgstr ""
+msgstr "ما هي البيانات المفتوحة؟"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:20
 msgid "Learn about Open Data and the Ontario Data Catalogue."
-msgstr ""
+msgstr "تعرف على البيانات المفتوحة وكتالوج بيانات أونتاريو."
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:28
 msgid "Data licences and use"
-msgstr ""
+msgstr "تراخيص البيانات واستخدامها"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:34
 msgid "Learn about the conditions and terms of use for using data."
-msgstr ""
+msgstr "تعرف على شروط وأحكام استخدام البيانات."
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:42
 msgid "Developers"
-msgstr ""
+msgstr "المطورين"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:48
 msgid "Guidance for using our data in a software application."
-msgstr ""
+msgstr "إرشادات لاستخدام بياناتنا في تطبيق برمجي."
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:56
 msgid "Training materials"
-msgstr ""
+msgstr "مواد تدريبية"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:62
 msgid "Learn to work with government data."
-msgstr ""
+msgstr "تعلم كيفية التعامل مع البيانات الحكومية."
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:8
 msgid "Data Available"
-msgstr ""
+msgstr "البيانات المتوفرة"
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:10
 #, python-format
@@ -1128,7 +1105,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:32
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:176
 msgid "Data Not Available"
-msgstr ""
+msgstr "البيانات غير متوفرة"
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:19
 msgid ""
@@ -1141,7 +1118,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:27
 msgid "Why?"
-msgstr ""
+msgstr "لماذا؟"
 
 #: ckanext/ontario_theme/templates/external/package/snippets/ontario_theme_access_level.html:34
 msgid ""
@@ -1153,55 +1130,55 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/external/scheming/package/read.html:23
 msgid "Ontario's Open Data Team"
-msgstr ""
+msgstr "فريق البيانات المفتوحة في أونتاريو"
 
 #: ckanext/ontario_theme/templates/external/scheming/package/read.html:29
 msgid "Ministry contact:"
-msgstr ""
+msgstr "اتصال الوزارة:"
 
 #: ckanext/ontario_theme/templates/external/scheming/package/snippets/additional_info.html:39
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:58
 #: ckanext/ontario_theme/templates/internal/scheming/package/snippets/additional_info.html:34
 msgid "State"
-msgstr ""
+msgstr "حالة"
 
 #: ckanext/ontario_theme/templates/external/scheming/package/snippets/language_selector.html:5
 #: ckanext/ontario_theme/templates/internal/snippets/language_selector.html:5
 msgid "Language"
-msgstr ""
+msgstr "لغة"
 
 #: ckanext/ontario_theme/templates/external/scheming/package/snippets/language_selector.html:16
 #: ckanext/ontario_theme/templates/internal/snippets/language_selector.html:16
 msgid "Go"
-msgstr ""
+msgstr "اذهب"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:10
 msgid "https://www.ontario.ca/page/accessibility"
-msgstr ""
+msgstr "https: //www.ontario.ca/page/accessibility"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:11
 msgid "Accessibility"
-msgstr ""
+msgstr "إمكانية الوصول"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:17
 msgid "https://www.ontario.ca/page/privacy-statement"
-msgstr ""
+msgstr "https: //www.ontario.ca/page/privacy-statement"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:18
 msgid "Privacy"
-msgstr ""
+msgstr "الخصوصية"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:24
 msgid "https://www.ontario.ca/page/terms-use"
-msgstr ""
+msgstr "https: //www.ontario.ca/page/terms-use"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:25
 msgid "Terms of use"
-msgstr ""
+msgstr "شروط الاستخدام"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:33
 msgid "https://www.ontario.ca/page/copyright-information"
-msgstr ""
+msgstr "https: //www.ontario.ca/page/copyright-information"
 
 #: ckanext/ontario_theme/templates/internal/footer.html:34
 msgid "&copy; King&#8217;s Printer for Ontario"
@@ -1269,7 +1246,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/header.html:131
 msgid "UN CKAN"
-msgstr ""
+msgstr "أ كان"
 
 #: ckanext/ontario_theme/templates/internal/group/read_base.html:20
 #: ckanext/ontario_theme/templates/internal/group/snippets/info.html:26
@@ -1439,11 +1416,11 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/ajax_snippets/api_info.html:101
 msgid "A simple ajax (JSONP) request to the data API using jQuery."
-msgstr ""
+msgstr "طلب ajax بسيط (JSONP) لواجهة برمجة التطبيقات للبيانات باستخدام jQuery."
 
 #: ckanext/ontario_theme/templates/internal/ajax_snippets/api_info.html:125
 msgid "Example: Python"
-msgstr ""
+msgstr "مثال: بايثون"
 
 #: ckanext/ontario_theme/templates/internal/group/edit.html:5
 #: ckanext/ontario_theme/templates/internal/group/edit_base.html:4
@@ -1459,7 +1436,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:106
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:25
 msgid "Edit"
-msgstr ""
+msgstr "تحرير"
 
 #: ckanext/ontario_theme/templates/internal/group/edit_base.html:4
 #: ckanext/ontario_theme/templates/internal/group/index.html:16
@@ -1468,24 +1445,24 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:5
 #: ckanext/ontario_theme/templates/internal/package/read.html:17
 msgid "Groups"
-msgstr ""
+msgstr "المجموعات"
 
 #: ckanext/ontario_theme/templates/internal/group/edit_base.html:19
 #: ckanext/ontario_theme/templates/internal/organization/edit_base.html:21
 msgid "Members"
-msgstr ""
+msgstr "الأعضاء"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:10
 msgid "Add Group"
-msgstr ""
+msgstr "إضافة مجموعة"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:17
 msgid "Browse datasets and resources organized by a specific theme or topic."
-msgstr ""
+msgstr "تصفح مجموعات البيانات والموارد المنظمة حسب موضوع أو موضوع معين."
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:22
 msgid "Search groups"
-msgstr ""
+msgstr "مجموعات البحث"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:28
 #: ckanext/ontario_theme/templates/internal/organization/index.html:41
@@ -1508,7 +1485,7 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/read.html:20
 #: ckanext/ontario_theme/templates/internal/package/search.html:36
 msgid "Name Ascending"
-msgstr ""
+msgstr "الاسم تصاعديا"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:46
 #: ckanext/ontario_theme/templates/internal/group/read.html:22
@@ -1516,38 +1493,38 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/organization/read.html:21
 #: ckanext/ontario_theme/templates/internal/package/search.html:37
 msgid "Name Descending"
-msgstr ""
+msgstr "الاسم تنازليًا"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:64
 msgid "There are currently no groups for this site"
-msgstr ""
+msgstr "لا توجد مجموعات حاليا لهذا الموقع"
 
 #: ckanext/ontario_theme/templates/internal/group/index.html:66
 #: ckanext/ontario_theme/templates/internal/organization/index.html:105
 msgid "How about creating one?"
-msgstr ""
+msgstr "ماذا عن إنشاء واحد؟"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:20
 #: ckanext/ontario_theme/templates/internal/organization/read.html:19
 #: ckanext/ontario_theme/templates/internal/package/search.html:35
 msgid "Relevance"
-msgstr ""
+msgstr "الصلة بالموضوع"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:23
 #: ckanext/ontario_theme/templates/internal/organization/read.html:22
 #: ckanext/ontario_theme/templates/internal/package/search.html:38
 msgid "Last Modified"
-msgstr ""
+msgstr "آخر تعديل"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:24
 #: ckanext/ontario_theme/templates/internal/organization/read.html:23
 #: ckanext/ontario_theme/templates/internal/package/search.html:41
 msgid "Popular"
-msgstr ""
+msgstr "مشهور"
 
 #: ckanext/ontario_theme/templates/internal/group/read.html:44
 msgid "Search datasets"
-msgstr ""
+msgstr "البحث في مجموعات البيانات"
 
 #: ckanext/ontario_theme/templates/internal/group/read_base.html:21
 #: ckanext/ontario_theme/templates/internal/organization/read_base.html:21
@@ -1555,31 +1532,31 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/package/activity.html:10
 #: ckanext/ontario_theme/templates/internal/package/read.html:18
 msgid "Activity Stream"
-msgstr ""
+msgstr "تيار النشاط"
 
 #: ckanext/ontario_theme/templates/internal/group/snippets/info.html:10
 #: ckanext/ontario_theme/templates/internal/package/read.html:68
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:21
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:27
 msgid "Deleted"
-msgstr ""
+msgstr "محذوف"
 
 #: ckanext/ontario_theme/templates/internal/group/snippets/info.html:18
 msgid "read more"
-msgstr ""
+msgstr "قراءة المزيد"
 
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:3
 #: ckanext/ontario_theme/templates/internal/snippets/home_breadcrumb_item.html:2
 msgid "Home"
-msgstr ""
+msgstr "الصفحة الرئيسية"
 
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:30
 msgid "Most popular datasets"
-msgstr ""
+msgstr "مجموعات البيانات الأكثر شيوعًا"
 
 #: ckanext/ontario_theme/templates/internal/home/layout3.html:34
 msgid "COVID datasets"
-msgstr ""
+msgstr "مجموعات بيانات COVID"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/about_text.html:348
 msgid ""
@@ -1606,15 +1583,15 @@ msgstr ""
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_covid_datasets.html:21
 #, python-format
 msgid "<a href=\"%(url)s\">Show more</a>"
-msgstr ""
+msgstr "<a href=\"٪(url)s\"> إظهار المزيد </a>"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_featured_content.html:11
 msgid "Decorative image"
-msgstr ""
+msgstr "صورة زخرفية"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_intro.html:12
 msgid "Welcome"
-msgstr ""
+msgstr "مرحبًا"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_intro.html:15
 msgid ""
@@ -1624,82 +1601,82 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_intro.html:19
 msgid "Learn more about Colby"
-msgstr ""
+msgstr "تعلم المزيد عن كولبي"
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:20
 msgid "Add Ministry"
-msgstr ""
+msgstr "إضافة وزارة"
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:31
 msgid "Find data published by each of Ontario's Ministries."
-msgstr ""
+msgstr "ابحث عن البيانات المنشورة من قبل كل وزارة من وزارات أونتاريو."
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:38
 msgid "Search ministries"
-msgstr ""
+msgstr "بحث الوزارات"
 
 #: ckanext/ontario_theme/templates/internal/organization/index.html:103
 msgid "There are currently no ministries for this site"
-msgstr ""
+msgstr "لا توجد وزارات لهذا الموقع حاليا"
 
 #: ckanext/ontario_theme/templates/internal/organization/new.html:4
 #: ckanext/ontario_theme/templates/internal/organization/new.html:11
 #: ckanext/ontario_theme/templates/internal/organization/new.html:17
 msgid "Create a Ministry"
-msgstr ""
+msgstr "إنشاء وزارة"
 
 #: ckanext/ontario_theme/templates/internal/organization/read.html:29
 #, python-format
 msgid "Search %(ministry)s datasets"
-msgstr ""
+msgstr "البحث في مجموعات البيانات٪ (الوزارة) s"
 
 #: ckanext/ontario_theme/templates/internal/organization/snippets/organization_item.html:9
 msgid "View {organization_name}"
-msgstr ""
+msgstr "عرض {organization_name}"
 
 #: ckanext/ontario_theme/templates/internal/organization/snippets/organization_item.html:15
 msgid "Datasets: {num}"
-msgstr ""
+msgstr "مجموعات البيانات: {num}"
 
 #: ckanext/ontario_theme/templates/internal/package/base.html:24
 msgid "Create Dataset"
-msgstr ""
+msgstr "إنشاء مجموعة البيانات"
 
 #: ckanext/ontario_theme/templates/internal/package/edit_base.html:14
 msgid "View dataset"
-msgstr ""
+msgstr "عرض مجموعة البيانات"
 
 #: ckanext/ontario_theme/templates/internal/package/edit_base.html:18
 msgid "Edit metadata"
-msgstr ""
+msgstr "تحرير بيانات التعريف"
 
 #: ckanext/ontario_theme/templates/internal/package/edit_base.html:19
 msgid "Resources"
-msgstr ""
+msgstr "الموارد"
 
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:17
 msgid "Associate this group with this dataset"
-msgstr ""
+msgstr "إقران هذه المجموعة بمجموعة البيانات هذه"
 
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:17
 msgid "Add to group"
-msgstr ""
+msgstr "إضافة إلى المجموعة"
 
 #: ckanext/ontario_theme/templates/internal/package/group_list.html:29
 msgid "There are no groups associated with this dataset"
-msgstr ""
+msgstr "لا توجد مجموعات مرتبطة بمجموعة البيانات هذه"
 
 #: ckanext/ontario_theme/templates/internal/package/new_package_form.html:8
 msgid "Save and finish"
-msgstr ""
+msgstr "حفظ وإنهاء"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:16
 msgid "Dataset"
-msgstr ""
+msgstr "مجموعة البيانات"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:28
 msgid "Algorithm/AI Asset"
-msgstr ""
+msgstr "الخوارزمية / أصول الذكاء الاصطناعي"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:33
 #, python-format
@@ -1712,7 +1689,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:48
 msgid "Private"
-msgstr ""
+msgstr "خاص"
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:54
 #, python-format
@@ -1723,19 +1700,19 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/read.html:66
 msgid "Draft"
-msgstr ""
+msgstr "مسودة"
 
 #: ckanext/ontario_theme/templates/internal/package/read_base.html:8
 msgid "Keep updated"
-msgstr ""
+msgstr "ابق على اطلاع"
 
 #: ckanext/ontario_theme/templates/internal/package/read_base.html:10
 msgid "Subscribe to updates to this dataset using RSS."
-msgstr ""
+msgstr "اشترك في تحديثات مجموعة البيانات هذه باستخدام RSS."
 
 #: ckanext/ontario_theme/templates/internal/package/read_base.html:14
 msgid "Subscribe"
-msgstr ""
+msgstr "اشتراك"
 
 #: ckanext/ontario_theme/templates/internal/package/resource_read.html:14
 #: ckanext/ontario_theme/templates/internal/package/resource_read.html:21
@@ -1754,54 +1731,54 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/search.html:39
 msgid "Recently Created"
-msgstr ""
+msgstr "تم إنشاؤه مؤخرًا"
 
 #: ckanext/ontario_theme/templates/internal/package/search.html:40
 msgid "Datasets With Data"
-msgstr ""
+msgstr "مجموعات البيانات مع البيانات"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:2
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:195
 msgid "Additional information"
-msgstr ""
+msgstr "معلومات إضافية"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:6
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:200
 msgid "Field"
-msgstr ""
+msgstr "الميدان"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:7
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:201
 msgid "Value"
-msgstr ""
+msgstr "القيمة"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:14
 msgid "Source"
-msgstr ""
+msgstr "المصدر"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:26
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:33
 msgid "Author"
-msgstr ""
+msgstr "المؤلف"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:39
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:46
 msgid "Maintainer"
-msgstr ""
+msgstr "عامل صيانة"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:52
 msgid "Version"
-msgstr ""
+msgstr "الإصدار"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:64
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:38
 msgid "Last Updated"
-msgstr ""
+msgstr "آخر تحديث"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/additional_info.html:72
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:215
 msgid "Created"
-msgstr ""
+msgstr "تم إنشاؤه"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/ontario_theme_language_disclaimer.html:8
 #, python-format
@@ -1832,22 +1809,22 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/package_form.html:53
 msgid "Are you sure you want to delete this dataset?"
-msgstr ""
+msgstr "هل أنت متأكد أنك تريد حذف مجموعة البيانات هذه؟"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/package_form.html:55
 #: ckanext/ontario_theme/templates/internal/scheming/group/group_form.html:29
 #: ckanext/ontario_theme/templates/internal/scheming/organization/group_form.html:30
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:43
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/package_form.html:64
 msgid "Save and Add Data"
-msgstr ""
+msgstr "حفظ وإضافة البيانات"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/report_an_error.html:4
 msgid "Report an error with this data"
-msgstr ""
+msgstr "الإبلاغ عن خطأ في هذه البيانات"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/report_an_error.html:6
 #, python-format
@@ -1859,120 +1836,120 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_form.html:7
 msgid "Resource"
-msgstr ""
+msgstr "المورد"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:19
 msgid "Other"
-msgstr ""
+msgstr "أخرى"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:56
 msgid "Preview"
-msgstr ""
+msgstr "معاينة"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:82
 msgid "Download"
-msgstr ""
+msgstr "تنزيل"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_item.html:91
 msgid "Open"
-msgstr ""
+msgstr "فتح"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resource_views_list_item.html:3
 msgid "Data Visualizer"
-msgstr ""
+msgstr "مصور البيانات"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:9
 msgid "Learn more about "
-msgstr ""
+msgstr "تعرف على المزيد حول"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:9
 msgid "accessing data using different file types."
-msgstr ""
+msgstr "الوصول إلى البيانات باستخدام أنواع ملفات مختلفة."
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:32
 msgid "Date"
-msgstr ""
+msgstr "التاريخ"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:34
 msgid "Date range"
-msgstr ""
+msgstr "النطاق الزمني"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:49
 msgid "No date range"
-msgstr ""
+msgstr "لا يوجد نطاق زمني"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:76
 msgid "Supporting Files"
-msgstr ""
+msgstr "دعم الملفات"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:85
 msgid "This dataset has no supporting files"
-msgstr ""
+msgstr "لا تحتوي مجموعة البيانات هذه على ملفات دعم"
 
 #: ckanext/ontario_theme/templates/internal/package/snippets/resources_list.html:95
 msgid "This dataset has no data"
-msgstr ""
+msgstr "لا تحتوي مجموعة البيانات هذه على بيانات"
 
 #: ckanext/ontario_theme/templates/internal/scheming/form_snippets/_organization_select.html:17
 msgid "No organization"
-msgstr ""
+msgstr "لا منظمة"
 
 #: ckanext/ontario_theme/templates/internal/scheming/group/group_form.html:23
 msgid "Are you sure you want to delete this Collection?"
-msgstr ""
+msgstr "هل أنت متأكد أنك تريد حذف هذه المجموعة؟"
 
 #: ckanext/ontario_theme/templates/internal/scheming/group/group_form.html:38
 msgid "Save Group"
-msgstr ""
+msgstr "حفظ المجموعة"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/about.html:28
 msgid "For more information"
-msgstr ""
+msgstr "لمزيد من المعلومات"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/about.html:33
 msgid "Contact"
-msgstr ""
+msgstr "الاتصال"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/group_form.html:24
 msgid "Are you sure you want to delete this Ministry?"
-msgstr ""
+msgstr "هل أنت متأكد أنك تريد حذف هذه الوزارة؟"
 
 #: ckanext/ontario_theme/templates/internal/scheming/organization/group_form.html:39
 msgid "Save Ministry"
-msgstr ""
+msgstr "حفظ الوزارة"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:55
 msgid "From the dataset abstract"
-msgstr ""
+msgstr "من ملخص مجموعة البيانات"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:60
 #, python-format
 msgid "Source: <a href=\"%(url)s\">%(dataset)s</a>"
-msgstr ""
+msgstr "المصدر: <a href=\"٪(url)s\">٪ (dataset) s </a>"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:82
 msgid "Download data"
-msgstr ""
+msgstr "تنزيل البيانات"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:84
 msgid "Access data"
-msgstr ""
+msgstr "الوصول إلى البيانات"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:126
 msgid "Use the data API"
-msgstr ""
+msgstr "استخدم واجهة برمجة تطبيقات البيانات"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:127
 msgid "Loading..."
-msgstr ""
+msgstr "جاري التحميل ..."
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:134
 msgid "CKAN Data API calls"
-msgstr ""
+msgstr "مكالمات CKAN Data API"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:141
 msgid "Visualize data"
-msgstr ""
+msgstr "تصور البيانات"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:142
 msgid ""
@@ -1982,55 +1959,55 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:207
 msgid "Last updated"
-msgstr ""
+msgstr "آخر تحديث"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:209
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:216
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:222
 msgid "unknown"
-msgstr ""
+msgstr "غير معروف"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:221
 msgid "Format"
-msgstr ""
+msgstr "تنسيق"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:229
 msgid "File size"
-msgstr ""
+msgstr "حجم الملف"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:230
 msgid "unknown size"
-msgstr ""
+msgstr "حجم غير معروف"
 
 #: ckanext/ontario_theme/templates/internal/scheming/package/resource_read.html:237
 #: ckanext/ontario_theme/templates/internal/snippets/license.html:21
 msgid "Licence"
-msgstr ""
+msgstr "الترخيص"
 
 #: ckanext/ontario_theme/templates/internal/snippets/add_dataset.html:5
 msgid "Add Dataset"
-msgstr ""
+msgstr "إضافة مجموعة البيانات"
 
 #: ckanext/ontario_theme/templates/internal/snippets/facet_list.html:51
 msgid "Show more"
-msgstr ""
+msgstr "إظهار المزيد"
 
 #: ckanext/ontario_theme/templates/internal/snippets/facet_list.html:54
 msgid "Show less"
-msgstr ""
+msgstr "عرض أقل"
 
 #: ckanext/ontario_theme/templates/internal/snippets/facet_list.html:58
 msgid "There are no {facet_type} that match this search"
-msgstr ""
+msgstr "لا توجد {facet_type} تطابق هذا البحث"
 
 #: ckanext/ontario_theme/templates/internal/snippets/license.html:32
 msgid "This dataset satisfies the Open Definition."
-msgstr ""
+msgstr "مجموعة البيانات هذه تلبي التعريف المفتوح."
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:7
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:25
 msgid "Ministry"
-msgstr ""
+msgstr "الوزارة"
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:36
 msgid "{number} dataset"
@@ -2044,23 +2021,23 @@ msgstr[5] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:40
 msgid "datasets"
-msgstr ""
+msgstr "مجموعات البيانات"
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:51
 msgid "Read more"
-msgstr ""
+msgstr "اقرأ المزيد"
 
 #: ckanext/ontario_theme/templates/internal/snippets/organization.html:58
 msgid "There is no description for this ministry."
-msgstr ""
+msgstr "لا يوجد وصف لهذه الوزارة."
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:23
 msgid "Algorithm/AI"
-msgstr ""
+msgstr "الخوارزمية / الذكاء الاصطناعي"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:30
 msgid "ON External"
-msgstr ""
+msgstr "تشغيل خارجي"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:36
 msgid "ON Geohub"
@@ -2068,31 +2045,31 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:62
 msgid "Resource formats"
-msgstr ""
+msgstr "تنسيقات الموارد"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:84
 msgid "This dataset has no description"
-msgstr ""
+msgstr "مجموعة البيانات هذه لا تحتوي على وصف"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:87
 msgid "Not available to the public"
-msgstr ""
+msgstr "غير متاح للجمهور"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:89
 msgid "Access to this dataset is restricted"
-msgstr ""
+msgstr "الوصول إلى مجموعة البيانات هذه مقيد"
 
 #: ckanext/ontario_theme/templates/internal/snippets/package_item.html:91
 msgid "This dataset is currently under review"
-msgstr ""
+msgstr "مجموعة البيانات هذه قيد المراجعة حاليًا"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_form.html:92
 msgid "Remove"
-msgstr ""
+msgstr "إزالة"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_form.html:101
 msgid "Filter Results"
-msgstr ""
+msgstr "تصفية النتائج"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:15
 msgid ""
@@ -2110,7 +2087,7 @@ msgstr[5] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:16
 msgid "No datasets found with the keyword(s) <strong>\"{query}\"</strong>"
-msgstr ""
+msgstr "لم يتم العثور على مجموعات بيانات مع الكلمة (الكلمات) الرئيسية <strong> \ "{query} \" </strong>"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:17
 msgid "<strong>{number} dataset</strong> found"
@@ -2124,7 +2101,7 @@ msgstr[5] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:18
 msgid "No datasets found"
-msgstr ""
+msgstr "لم يتم العثور على مجموعات بيانات"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:20
 msgid ""
@@ -2142,7 +2119,7 @@ msgstr[5] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:21
 msgid "No groups found with the keyword(s) <strong>\"{query}\"</strong>"
-msgstr ""
+msgstr "لم يتم العثور على مجموعات تحتوي على الكلمة (الكلمات) الرئيسية <strong> \ "{query} \" </strong>"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:22
 msgid "<strong>{number} group</strong> found"
@@ -2156,7 +2133,7 @@ msgstr[5] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:23
 msgid "No groups found"
-msgstr ""
+msgstr "لم يتم العثور على مجموعات"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:25
 msgid "<strong>{number} ministry</strong> found for <strong>\"{query}\"</strong>"
@@ -2172,7 +2149,7 @@ msgstr[5] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:26
 msgid "No ministries found with the keyword(s) <strong>\"{query}\"</strong>"
-msgstr ""
+msgstr "لم يتم العثور على وزارات تحتوي على الكلمة (الكلمات) الرئيسية <strong> \ "{query} \" </strong>"
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:27
 msgid "<strong>{number} ministry</strong> found"
@@ -2186,136 +2163,136 @@ msgstr[5] ""
 
 #: ckanext/ontario_theme/templates/internal/snippets/search_result_text.html:28
 msgid "No ministries found"
-msgstr ""
+msgstr "لم يتم العثور على وزارات"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:9
 msgid "My Datasets"
-msgstr ""
+msgstr "مجموعات البيانات الخاصة بي"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:10
 msgid "News feed"
-msgstr ""
+msgstr "موجز الأخبار"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:11
 msgid "My Ministries"
-msgstr ""
+msgstr "خدماتي"
 
 #: ckanext/ontario_theme/templates/internal/user/dashboard.html:12
 msgid "My Groups"
-msgstr ""
+msgstr "مجموعاتي"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:9
 msgid "Change details"
-msgstr ""
+msgstr "تغيير التفاصيل"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:10
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:8
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:7
 msgid "Username"
-msgstr ""
+msgstr "اسم المستخدم"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:11
 msgid "Full name"
-msgstr ""
+msgstr "الاسم الكامل"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:11
 msgid "eg. Joe Bloggs"
-msgstr ""
+msgstr "على سبيل المثال. "
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:12
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:9
 msgid "Email"
-msgstr ""
+msgstr "بريد إلكتروني"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:12
 msgid "eg. joe@example.com"
-msgstr ""
+msgstr "على سبيل المثال. "
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:13
 msgid "A little information about yourself"
-msgstr ""
+msgstr "القليل من المعلومات عن نفسك"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:15
 msgid "Subscribe to notification emails"
-msgstr ""
+msgstr "الاشتراك في رسائل البريد الإلكتروني الخاصة بالإعلام"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:22
 msgid "Change password"
-msgstr ""
+msgstr "تغيير كلمة المرور"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:25
 msgid "Sysadmin Password"
-msgstr ""
+msgstr "كلمة مرور مسؤول النظام"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:25
 msgid "Old Password"
-msgstr ""
+msgstr "كلمة المرور القديمة"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:32
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:9
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:10
 msgid "Password"
-msgstr ""
+msgstr "كلمة المرور"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:33
 msgid "Confirm Password"
-msgstr ""
+msgstr "تأكيد كلمة المرور"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:41
 msgid "Are you sure you want to delete this User?"
-msgstr ""
+msgstr "هل أنت متأكد أنك تريد حذف هذا المستخدم؟"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:54
 msgid "Are you sure you want to regenerate the API key?"
-msgstr ""
+msgstr "هل أنت متأكد أنك تريد إعادة إنشاء مفتاح API؟"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:56
 msgid "Regenerate API Key"
-msgstr ""
+msgstr "إعادة إنشاء مفتاح API"
 
 #: ckanext/ontario_theme/templates/internal/user/edit_user_form.html:63
 msgid "Update Profile"
-msgstr ""
+msgstr "تحديث الملف الشخصي"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:7
 msgid "You're already logged in as {user}."
-msgstr ""
+msgstr "لقد قمت بتسجيل الدخول بالفعل باعتبارك {user}."
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:7
 msgid "Logout"
-msgstr ""
+msgstr "تسجيل الخروج"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:10
 msgid "Remember me"
-msgstr ""
+msgstr "تذكرني"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:12
 msgid "Log in"
-msgstr ""
+msgstr "تسجيل الدخول"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:18
 msgid "You're already logged in"
-msgstr ""
+msgstr "أنت مسجل الدخول بالفعل"
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:20
 msgid "You need to log out before you can log in with another account."
-msgstr ""
+msgstr "أنت بحاجة إلى تسجيل الخروج قبل أن تتمكن من تسجيل الدخول بحساب آخر."
 
 #: ckanext/ontario_theme/templates/internal/user/logout_first.html:21
 msgid "Log out now"
-msgstr ""
+msgstr "تسجيل الخروج الآن"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:7
 msgid "username"
-msgstr ""
+msgstr "اسم المستخدم"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:8
 msgid "Full Name"
-msgstr ""
+msgstr "الاسم الكامل"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:8
 msgid "Joe Bloggs"
-msgstr ""
+msgstr "جو بلوجز"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:9
 msgid "joe@example.com"
@@ -2323,9 +2300,99 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:11
 msgid "Confirm"
-msgstr ""
+msgstr "تأكيد"
 
 #: ckanext/ontario_theme/templates/internal/user/new_user_form.html:18
 msgid "Create Account"
-msgstr ""
+msgstr "إنشاء حساب"
 
+
+# added by me
+
+msgid "Search Data"
+msgstr "البحث عن البيانات"
+
+msgid "Find data published by each of Organization."
+msgstr "العثور على البيانات المنشورة من قبل كل منظمة."
+
+msgid "by the UN"
+msgstr "من قبل الأمم المتحدة"
+
+#: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_cateogories.html
+
+msgid "Justice and Public Safety"
+msgstr "العدل والسلامة العامة"
+
+msgid "Agriculture and Food"
+msgstr "الزراعة والغذاء"
+
+msgid "Housing, Communities and Social Support"
+msgstr "الإسكان والمجتمعات والدعم الاجتماعي"
+
+msgid "Education and Training"
+msgstr "التعليم والتدريب"
+
+msgid "Economy and Business"
+msgstr "الاقتصاد والأعمال"
+
+msgid "Culture and Recreation"
+msgstr "الثقافة والترفيه"
+
+msgid "Environment and Natural Resources"
+msgstr "البيئة والموارد الطبيعية"
+
+msgid "Government and Finance"
+msgstr "الحكومة والمالية"
+
+msgid "Health"
+msgstr "الصحة"
+
+msgid "Infrastructure and Transportation"
+msgstr "البنية التحتية والنقل"
+
+msgid "Tell us what you think about our data and how you’re using it."
+msgstr "أخبرنا برأيك في بياناتنا وكيفية استخدامك لها."
+
+msgid "Take our survey"
+msgstr "شارك في استطلاعنا"
+
+#: ckanext/ontario_theme/templates/external/header.html:9
+msgid "Data Catalogue"
+msgstr "كتالوج البيانات"
+
+
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:15
+msgid "Take a <a href=\"https://www.ontario.ca/form/survey-open-data-catalogue?%(params)s\">2-minute survey</a> and tell us what you think about this page."
+msgstr "قم بأخذ <a href=\"https://www.ontario.ca/zh_Hans_CN/forme/enquete-catalogue-de-donnees-de-lontario?%(params)s\">استبيان لمدة دقيقتين</a> وأخبرنا برأيك حول هذه الصفحة."
+
+
+#: ckanext/ontario_theme/templates/external/home/help.html:4
+#: ckanext/ontario_theme/templates/external/home/help.html:8
+#: ckanext/ontario_theme/templates/external/home/help.html:14
+#: ckanext/ontario_theme/templates/internal/header.html:141
+#: ckanext/ontario_theme/templates/internal/header.html:242
+#: ckanext/ontario_theme/templates/internal/home/help.html:4
+#: ckanext/ontario_theme/templates/internal/home/help.html:8
+#: ckanext/ontario_theme/templates/internal/home/help.html:14
+msgid "Help"
+msgstr "مساعدة"
+
+
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
+msgid " datasets published by the the UN."
+msgstr "مجموعة البيانات التي تم نشرها من قبل الأمم المتحدة."
+
+msgid "Top"
+msgstr "أعلى"
+
+msgid "Search Organization"
+msgstr "البحث عن المنظمة"
+
+msgid "COVID "
+msgstr "كوفيد"
+
+msgid "UN"
+msgstr "واحد"

@@ -936,12 +936,10 @@ msgid "Help us improve the Data Catalogue"
 msgstr "Помогите нам улучшить Каталог данных"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:15
-#, python-format
-msgid ""
-"Take a <a href=\"https://www.ontario.ca/form/survey-open-data-"
-"catalogue?%(params)s\">2-minute survey</a> and tell us what you think "
-"about this page."
-msgstr ""
+msgid "Take a <a href=\"https://www.ontario.ca/form/survey-open-data-catalogue?%(params)s\">2-minute survey</a> and tell us what you think about this page."
+msgstr "Пройдите <a href="https://www.ontario.ca/form/survey-open-data-catalogue?%(params)s\">2-минутный опрос</a> и расскажите нам, что вы думаете об этой странице."
+
+
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_featured_content.html:11
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_featured_content.html:22
@@ -991,12 +989,11 @@ msgstr "Найти общедоступные данные и изучить"
 msgid " datasets published by the Government of Ontario."
 msgstr "наборы данных, опубликованные правительством Онтарио."
 
-#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:20
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:27
 #, python-format
 msgid ""
-"Learn more about <a href=\"%(url)s\">what is covered and how to use "
-"data.</a>"
-msgstr ""
+"Learn more about <a href="%(url)s">what is covered and how to use data.</a>"
+msgstr "Узнайте больше о <a href="%(url)s">покрытии и использовании данных.</a>"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:4
 msgid "Resources and information"
@@ -1920,3 +1917,22 @@ msgstr "Примите участие в нашем опросе."
 #: ckanext/ontario_theme/templates/external/header.html:9
 msgid "Data Catalogue"
 msgstr "Каталог данных"
+
+
+msgid "Contact us"
+msgstr "Свяжитесь с нами"
+
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
+msgid " datasets published by the the UN."
+msgstr " наборы данных, опубликованные ООН."
+
+msgid "Top"
+msgstr "Вверх"
+
+msgid "Search Organization"
+msgstr "Поиск организации"
+
+
+#: ckanext/ontario_theme/templates/internal/header.html:131
+msgid "UN CKAN"
+msgstr "НККАН ООН"

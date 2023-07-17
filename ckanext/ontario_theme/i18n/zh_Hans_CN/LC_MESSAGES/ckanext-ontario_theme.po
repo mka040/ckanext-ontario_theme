@@ -128,16 +128,7 @@ msgid "https://www.ontario.ca/form/survey-open-data-catalogue"
 msgstr ""
 
 
-#: ckanext/ontario_theme/templates/external/home/help.html:4
-#: ckanext/ontario_theme/templates/external/home/help.html:8
-#: ckanext/ontario_theme/templates/external/home/help.html:14
-#: ckanext/ontario_theme/templates/internal/header.html:141
-#: ckanext/ontario_theme/templates/internal/header.html:242
-#: ckanext/ontario_theme/templates/internal/home/help.html:4
-#: ckanext/ontario_theme/templates/internal/home/help.html:8
-#: ckanext/ontario_theme/templates/internal/home/help.html:14
-msgid "Help"
-msgstr ""
+
 
 #: ckanext/ontario_theme/templates/external/home/help.html:15
 msgid ""
@@ -1050,9 +1041,9 @@ msgstr "搜索"
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:27
 #, python-format
 msgid ""
-"Learn more about <a href=\"%(url)s\">what is covered and how to use "
-"data.</a>"
-msgstr ""
+"Learn more about <a href=\"%(url)s\">what is covered and how to use data.</a>"
+msgstr "了解更多有关 <a href=\"/zh_Hans_CN/about#training-materials\">涵盖的内容以及如何使用数据。"
+
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_resources_and_information.html:4
 msgid "Resources and information"
@@ -1247,7 +1238,7 @@ msgstr ""
 
 #: ckanext/ontario_theme/templates/internal/header.html:131
 msgid "UN CKAN"
-msgstr ""
+msgstr "联合国"
 
 #: ckanext/ontario_theme/templates/internal/group/read_base.html:20
 #: ckanext/ontario_theme/templates/internal/group/snippets/info.html:26
@@ -1633,7 +1624,7 @@ msgstr "搜索 %(ministry)s 数据集"
 
 #: ckanext/ontario_theme/templates/internal/organization/snippets/organization_item.html:9
 msgid "View {organization_name}"
-msgstr "查看{组织名称}"
+msgstr "查看{organization_name}"
 
 #: ckanext/ontario_theme/templates/internal/organization/snippets/organization_item.html:15
 msgid "Datasets: {num}"
@@ -2281,7 +2272,7 @@ msgstr "搜索数据"
 msgid "Find data published by each of Organization."
 msgstr "找到每个组织发布的数据。"
 
-msgid "datasets published by the UN."
+msgid "by the UN"
 msgstr "联合国发布的数据集。"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/ontario_theme_cateogories.html
@@ -2327,7 +2318,34 @@ msgstr "参加我们的调查"
 msgid "Data Catalogue"
 msgstr "数据目录
 
-#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:23
-#, python-format
-msgid "Take a 2-minute survey and tell us what you think about this page."
-msgstr "进行 2 分钟的调查，告诉我们您对此页面的看法。"
+
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_contact_us.html:15
+msgid "Take a <a href=\"https://www.ontario.ca/form/survey-open-data-catalogue?%(params)s\">2-minute survey</a> and tell us what you think about this page."
+msgstr "拿一个 <a href=\"https://www.ontario.ca/zh_Hans_CN/forme/enquete-catalogue-de-donnees-de-lontario?%(params)s\">两分钟投票</a>并在此页面上告诉我们您的想法。"
+
+
+
+#: ckanext/ontario_theme/templates/external/home/help.html:4
+#: ckanext/ontario_theme/templates/external/home/help.html:8
+#: ckanext/ontario_theme/templates/external/home/help.html:14
+#: ckanext/ontario_theme/templates/internal/header.html:141
+#: ckanext/ontario_theme/templates/internal/header.html:242
+#: ckanext/ontario_theme/templates/internal/home/help.html:4
+#: ckanext/ontario_theme/templates/internal/home/help.html:8
+#: ckanext/ontario_theme/templates/internal/home/help.html:14
+msgid "Help"
+msgstr "帮助"
+
+
+msgid "Contact us"
+msgstr "联系我们"
+
+#: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
+msgid " datasets published by the the UN."
+msgstr "联合国发布的数据集。"
+
+msgid "Top"
+msgstr "返回页首"
+
+msgid "Search Organization"
+msgstr "搜索组织"

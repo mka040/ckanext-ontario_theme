@@ -145,10 +145,10 @@ msgid "No ministries found with the keyword(s) <strong>\"{query}\"</strong>"
 msgstr "Aucun ministère trouvé avec le(s) mot(s) clé(s) <strong>« {query} »</strong>"
 
 #: OVERRIDE: ckan/templates/snippets/search_result_text.html:29
-msgid "<strong>{number} ministry</strong> found"
-msgid_plural "<strong>{number} ministries</strong> found"
-msgstr[0] "<strong>{number} ministère</strong> trouvé"
-msgstr[1] "<strong>{number} ministères</strong> trouvés"
+msgid "<strong>{number} Organization</strong> found"
+msgid_plural "<strong>{number} Organisation</strong> found"
+msgstr[0] "<strong>{number} Organisations</strong> trouvé"
+msgstr[1] "<strong>{number} Organisations</strong> trouvés"
 
 #: OVERRIDE: ckan/templates/snippets/search_result_text.html:30
 msgid "No ministries found"
@@ -2040,8 +2040,8 @@ msgid "Recent activity"
 msgstr "Activité récente"
 
 #: ckanext/ontario_theme/templates/internal/home/snippets/search.html:7
-msgid "Search Ontario's Data"
-msgstr "Rechercher les données de l'Ontario"
+msgid "Search Data"
+msgstr "Rechercher les données de"
 
 msgid "Search datasets"
 msgstr "Rechercher les jeux de données"
@@ -2082,8 +2082,8 @@ msgid "Find public data and explore "
 msgstr "Trouvez des données publiques et explorez"
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:12
-msgid " datasets published by the Government of Ontario."
-msgstr " jeux de données publiés par le gouvernement de l’Ontario."
+msgid "datasets published by the UN."
+msgstr " Jeux de données publiés par les Nations Unies."
 
 #: ckanext/ontario_theme/templates/external/home/snippets/ontario_theme_intro.html:20
 msgid "Learn more about <a href=\"%(url)s\">what is covered and how to use data.</a>"
@@ -2554,3 +2554,16 @@ msgstr "Organisation"
 
 msgid "covid data"
 msgstr "Données COVID"
+
+msgid "Search Organization"
+msgstr "Rechercher une organisation"
+
+msgid " Organization found "
+msgstr " Organisation trouvée"
+
+msgid "Find data published by each of Organization."
+msgstr "Trouvez les données publiées par chacune des organisations."
+
+#: ckanext/ontario_theme/templates/internal/header.html:131
+msgid "UN CKAN"
+msgstr "ONU CKAN"
