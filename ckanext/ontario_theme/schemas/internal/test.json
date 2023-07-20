@@ -1,0 +1,12 @@
+{
+    "field_name": "books",
+    "preset": "fluent_text",
+    "label": {
+        "en": "Books",
+        "fr": "Livres"
+    },
+    "form_languages": [
+        "en",
+        "fr"
+    ]
+}
